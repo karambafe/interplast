@@ -305,7 +305,8 @@ textarea {
       font-family: "Roboto";
       color: #405fa8;
       font-weight: bold;
-      text-align: center; }
+      text-align: center;
+      margin-bottom: 3px; }
     .header__call-button {
       display: -webkit-box;
       display: -webkit-flex;
@@ -376,8 +377,8 @@ textarea {
   -webkit-align-items: center;
       -ms-flex-align: center;
           align-items: center;
-  -webkit-transition: -webkit-transform 0.2s ease;
-          transition: transform 0.2s ease;
+  -webkit-transition: -webkit-transform 0.3s ease;
+          transition: transform 0.3s ease;
   background: #fff;
   width: 100%;
   height: 50px;
@@ -428,3 +429,122 @@ textarea {
 
 .fornavbar {
   height: 3000px; }
+
+.offer {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-justify-content: space-around;
+      -ms-flex-pack: distribute;
+          justify-content: space-around;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 100%;
+  height: 590px;
+  background: #000; }
+  .offer-information {
+    width: 360px;
+    height: 100%;
+    padding-top: 60px; }
+    .offer-information__header {
+      font-size: 42px;
+      font-family: "Roboto";
+      color: #405fa8;
+      font-weight: bold;
+      line-height: 1.19; }
+    .offer-information__line {
+      width: 124px;
+      height: 1px;
+      margin: 20px 0;
+      background-color: #fff; }
+    .offer-information__list {
+      padding-left: 17px;
+      margin: 0; }
+      .offer-information__list-item {
+        font-size: 18px;
+        font-family: "Roboto";
+        color: white;
+        line-height: 1.333;
+        text-align: left;
+        margin-bottom: 10px; }
+  .offer-sign {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    width: 360px;
+    height: 100%;
+    padding-top: 65px; }
+    .offer-sign__header {
+      display: block;
+      font-size: 24px;
+      font-family: "Roboto";
+      color: white;
+      line-height: 1.167;
+      text-align: left;
+      margin-bottom: 20px; }
+    .offer-sign__description {
+      display: block;
+      font-size: 18px;
+      font-family: "Roboto";
+      color: #ff9e02;
+      line-height: 1.333;
+      text-align: left;
+      margin-bottom: 30px; }
+    .offer-sign__form {
+      display: -webkit-box;
+      display: -webkit-flex;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+      -webkit-flex-direction: column;
+          -ms-flex-direction: column;
+              flex-direction: column;
+      -webkit-box-align: start;
+      -webkit-align-items: flex-start;
+          -ms-flex-align: start;
+              align-items: flex-start;
+      width: 260px; }
+      .offer-sign__form-label {
+        font-size: 14px;
+        font-family: "Roboto";
+        color: white;
+        line-height: 1.571; }
+      .offer-sign__form-input {
+        width: 260px;
+        height: 40px;
+        border: 1px solid #fff;
+        background-color: #9ca0a5;
+        margin-bottom: 10px;
+        padding: 0 10px; }
+      .offer-sign__form-submit {
+        width: 260px;
+        height: 40px;
+        border-radius: 20px;
+        background-color: #405fa8;
+        color: #fff;
+        text-transform: uppercase;
+        margin-top: 15px; }
+
+@media all and (max-width: 1000px) {
+  .offer {
+    height: 100%;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    padding-bottom: 30px; }
+    .offer-sign__form {
+      -webkit-align-self: center;
+          -ms-flex-item-align: center;
+              align-self: center; } }

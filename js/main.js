@@ -6,7 +6,7 @@ function getCoords(elem) { // кроме IE8-
 }
 
 var navbar = document.getElementsByClassName('navbar')[0];
-var forNavbarItem = document.getElementsByClassName('fornavbar')[0];
+var forNavbarItem = document.getElementsByClassName('offer')[0];
 var navbarCoords = getCoords(forNavbarItem);
 
 window.onscroll = function() {

@@ -1,0 +1,117 @@
+.offer {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  height: 590px;
+  background: #000;
+
+  &-information {
+    width: 360px;
+    height: 100%;
+    padding-top: 60px;
+
+    &__header {
+      font-size: 42px;
+      font-family: "Roboto";
+      color: rgb(64, 95, 168);
+      font-weight: bold;
+      line-height: 1.19;
+    }
+
+    &__line {
+      width: 124px;
+      height: 1px;
+      margin: 20px 0;
+      background-color: #fff;
+    }
+
+    &__list {
+      padding-left: 17px;
+      margin: 0;
+
+      &-item {
+        font-size: 18px;
+        font-family: "Roboto";
+        color: rgb(255, 255, 255);
+        line-height: 1.333;
+        text-align: left;
+        margin-bottom: 10px;
+      }
+    }
+  }
+
+  &-sign {
+    display: flex;
+    flex-direction: column;
+    width: 360px;
+    height: 100%;
+    padding-top: 65px;
+
+    &__header {
+      display: block;
+      font-size: 24px;
+      font-family: "Roboto";
+      color: rgb(255, 255, 255);
+      line-height: 1.167;
+      text-align: left;
+      margin-bottom: 20px;
+    }
+
+    &__description {
+      display: block;
+      font-size: 18px;
+      font-family: "Roboto";
+      color: rgb(255, 158, 2);
+      line-height: 1.333;
+      text-align: left;
+      margin-bottom: 30px;
+    }
+
+    &__form {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      width: 260px;
+
+      &-label {
+        font-size: 14px;
+        font-family: "Roboto";
+        color: rgb(255, 255, 255);
+        line-height: 1.571;
+      }
+
+      &-input {
+        width: 260px;
+        height: 40px;
+        border: 1px solid #fff;
+        background-color: #9ca0a5;
+        margin-bottom: 10px;
+        padding: 0 10px;
+      }
+
+      &-submit {
+        width: 260px;
+        height: 40px;
+        border-radius: 20px;
+        background-color: #405fa8;
+        color: #fff;
+        text-transform: uppercase;
+        margin-top: 15px;
+      }
+    }
+  }
+}
+
+@media all and (max-width: 1000px) {
+  .offer {
+    height: 100%;
+    flex-direction: column;
+    padding-bottom: 30px;
+
+    &-sign__form {
+      align-self: center;
+    }
+  }
+}
+
