@@ -548,3 +548,109 @@ textarea {
       -webkit-align-self: center;
           -ms-flex-item-align: center;
               align-self: center; } }
+.key-advantage {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-justify-content: space-around;
+      -ms-flex-pack: distribute;
+          justify-content: space-around;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-flex-wrap: nowrap;
+      -ms-flex-wrap: nowrap;
+          flex-wrap: nowrap;
+  width: 100%;
+  padding: 70px 0; }
+  .key-advantage-item {
+    position: relative;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: end;
+    -webkit-justify-content: flex-end;
+        -ms-flex-pack: end;
+            justify-content: flex-end;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+        -ms-flex-align: center;
+            align-items: center;
+    width: 200px;
+    height: 240px; }
+    .key-advantage-item__rectangle {
+      position: absolute;
+      top: 28px;
+      left: 30px;
+      -webkit-transform: rotate(45deg);
+          -ms-transform: rotate(45deg);
+              transform: rotate(45deg);
+      display: block;
+      width: 140px;
+      height: 140px;
+      border-radius: 2px;
+      background-color: #f4f6fa;
+      z-index: 100; }
+    .key-advantage-item__description {
+      position: relative;
+      display: block;
+      height: 70px;
+      font-size: 16px;
+      font-family: "Roboto";
+      color: #333333;
+      line-height: 1.5;
+      text-align: center;
+      z-index: 101; }
+    .key-advantage-item__image {
+      display: -webkit-box;
+      display: -webkit-flex;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-pack: center;
+      -webkit-justify-content: center;
+          -ms-flex-pack: center;
+              justify-content: center;
+      -webkit-box-align: center;
+      -webkit-align-items: center;
+          -ms-flex-align: center;
+              align-items: center;
+      width: 100%;
+      height: 100%;
+      -webkit-transform: rotate(-45deg);
+          -ms-transform: rotate(-45deg);
+              transform: rotate(-45deg); }
+    .key-advantage-item__image1 {
+      background: url("../img/header/year.png") no-repeat center; }
+    .key-advantage-item__image2 {
+      background: url("../img/header/cars.png") no-repeat center; }
+    .key-advantage-item__image3 {
+      background: url("../img/header/garanty.png") no-repeat center; }
+    .key-advantage-item__image4 {
+      background: url("../img/header/certificate.png") no-repeat center; }
+
+@media all and (max-width: 1000px) {
+  .key-advantage {
+    -webkit-flex-wrap: wrap;
+        -ms-flex-wrap: wrap;
+            flex-wrap: wrap;
+    padding-bottom: 20px; }
+    .key-advantage-item {
+      margin: 0 7vw;
+      margin-bottom: 50px; } }
+@media all and (max-width: 600px) {
+  .key-advantage {
+    -webkit-flex-wrap: wrap;
+        -ms-flex-wrap: wrap;
+            flex-wrap: wrap;
+    padding-bottom: 20px; }
+    .key-advantage-item {
+      margin: 0 10px;
+      margin-bottom: 50px; } }
