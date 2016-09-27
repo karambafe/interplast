@@ -564,7 +564,11 @@ textarea {
       -ms-flex-wrap: nowrap;
           flex-wrap: nowrap;
   width: 100%;
-  padding: 70px 0; }
+  padding: 70px 0;
+  background-image: url("../img/header/bottom-line.png");
+  background-size: 50%;
+  background-position: 50% 100%;
+  background-repeat: no-repeat; }
   .key-advantage-item {
     position: relative;
     display: -webkit-box;

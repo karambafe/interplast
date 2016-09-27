@@ -2,11 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="16ff664c-2e8a-43f9-b6ba-875af83a3338" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scss/partial/_key-advantage.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/scss/main.css" afterPath="$PROJECT_DIR$/scss/main.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/scss/main.scss" afterPath="$PROJECT_DIR$/scss/main.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/scss/partial/_key-advantage.scss" afterPath="$PROJECT_DIR$/scss/partial/_key-advantage.scss" />
     </list>
     <ignored path="interplast.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -73,7 +69,7 @@
             <entry file="file://$PROJECT_DIR$/scss/main.css">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="-90">
-                  <caret line="661" column="0" selection-start-line="661" selection-start-column="0" selection-end-line="661" selection-end-column="0" />
+                  <caret line="656" column="0" selection-start-line="656" selection-start-column="0" selection-end-line="656" selection-end-column="0" />
                   <folding />
                 </state>
               </provider>
@@ -106,8 +102,8 @@
           <file leaf-file-name="_key-advantage.scss" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/scss/partial/_key-advantage.scss">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="646">
-                  <caret line="74" column="20" selection-start-line="74" selection-start-column="20" selection-end-line="74" selection-end-column="20" />
+                <state relative-caret-position="150">
+                  <caret line="10" column="30" selection-start-line="10" selection-start-column="30" selection-end-line="10" selection-end-column="30" />
                   <folding />
                 </state>
               </provider>
@@ -387,12 +383,12 @@
       <workItem from="1474910180464" duration="3153000" />
       <workItem from="1474913370338" duration="6577000" />
       <workItem from="1474923735123" duration="4402000" />
-      <workItem from="1474951791017" duration="4063000" />
+      <workItem from="1474951791017" duration="4295000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="18431000" />
+    <option name="totallyTimeSpent" value="18663000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -616,7 +612,7 @@
     <entry file="file://$PROJECT_DIR$/scss/main.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-90">
-          <caret line="661" column="0" selection-start-line="661" selection-start-column="0" selection-end-line="661" selection-end-column="0" />
+          <caret line="656" column="0" selection-start-line="656" selection-start-column="0" selection-end-line="656" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -631,8 +627,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/scss/partial/_key-advantage.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="646">
-          <caret line="74" column="20" selection-start-line="74" selection-start-column="20" selection-end-line="74" selection-end-column="20" />
+        <state relative-caret-position="150">
+          <caret line="10" column="30" selection-start-line="10" selection-start-column="30" selection-end-line="10" selection-end-column="30" />
           <folding />
         </state>
       </provider>
