@@ -1,0 +1,107 @@
+.insulation {
+  width: 100%;
+  min-height: 250px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  background: #2d4275;
+  padding: 40px 0;
+
+  &__description {
+    width: 404px;
+
+    &-title {
+      font-size: 23px;
+      font-family: "Roboto";
+      color: rgb(255, 255, 255);
+      line-height: 1.167;
+    }
+
+    &-line {
+      width: 100px;
+      height: 1px;
+      background: #fff;
+    }
+
+    &-text {
+      font-size: 14px;
+      font-family: "Roboto";
+      color: rgb(255, 255, 255);
+      line-height: 1.571;
+    }
+  }
+
+  &__more {
+    width: 300px;
+    text-align: center;
+
+    &-title {
+      font-size: 24px;
+      font-family: "Roboto";
+      color: rgb(255, 255, 255);
+      line-height: 0.917;
+    }
+
+    &-link {
+      margin-top: 10px;
+      font-size: 18px;
+      font-family: "Roboto";
+      color: rgb(255, 255, 255);
+      text-decoration: underline;
+      text-transform: uppercase;
+      line-height: 1.222;
+    }
+  }
+
+}
+
+.Он_вспомнил_и_сообразил_всё_о_Дунечке__и_сердце {
+  font-size: 14px;
+  font-family: "Roboto";
+  color: rgb(255, 255, 255);
+  line-height: 1.571;
+  text-align: left;
+  position: absolute;
+  left: 112px;
+  top: 2836.365px;
+  width: 403px;
+  height: 80px;
+  z-index: 99;
+}
+
+.Хотите_узнать_больше_ {
+  font-size: 24px;
+  font-family: "Roboto";
+  color: rgb(255, 255, 255);
+  line-height: 0.917;
+  text-align: center;
+  position: absolute;
+  left: 760.218px;
+  top: 2801.051px;
+  z-index: 104;
+}
+
+.Да__хочу_ {
+  font-size: 18px;
+  font-family: "Roboto";
+  color: rgb(255, 255, 255);
+  text-decoration: underline;
+  text-transform: uppercase;
+  line-height: 1.222;
+  text-align: center;
+  position: absolute;
+  left: 848px;
+  top: 2853.043px;
+  z-index: 103;
+}
+
+@media all and (max-width: 430px) {
+  .insulation__description {
+    width: 300px;
+    text-align: center;
+  }
+}
+
+
+
