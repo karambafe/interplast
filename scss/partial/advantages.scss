@@ -1,0 +1,126 @@
+.advantages {
+  display: block;
+  width: 100%;
+
+  &__header {
+    width: 100%;
+    font-size: 32px;
+    font-family: "Roboto";
+    color: rgb(51, 51, 51);
+    font-weight: bold;
+    line-height: 1.188;
+    text-align: center;
+    padding: 65px 0;
+  }
+
+  &__container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+
+  &__item {
+    display: flex;
+    width: 225px;
+    height: 115px;
+    border: 1px solid black;
+    margin: 0 50px;
+    margin-bottom: 70px;
+
+    &-container {
+      height: 100%;
+      padding-top: 20px;
+    }
+
+    &-description {
+      display: flex;
+      justify-content: flex-start;
+      align-items: center;
+      padding-left: 15px;
+      font-size: 14px;
+      font-family: "Roboto";
+      color: rgb(51, 51, 51);
+      line-height: 1.571;
+      text-align: left;
+    }
+
+    &-1{
+      background-image: url("../img/advantages/1.png");
+      background-position: 30% 50%;
+    }
+    &-2{
+      background-image: url("../img/advantages/2.png");
+      background-position: 30% 50%;
+    }
+    &-3{
+      background-image: url("../img/advantages/3.png");
+      background-position: 30% 50%;
+    }
+    &-4{
+      background-image: url("../img/advantages/4.png");
+      background-position: 30% 50%;
+    }
+    &-5{
+      background-image: url("../img/advantages/5.png");
+      background-position: 30% 50%;
+    }
+    &-6{
+      background-image: url("../img/advantages/6.png");
+      background-position: 30% 50%;
+    }
+    &-7{
+      background-image: url("../img/advantages/7.png");
+      background-position: 30% 50%;
+    }
+    &-8{
+      background-image: url("../img/advantages/8.png");
+      background-position: 30% 50%;
+    }
+    &-9{
+      background-image: url("../img/advantages/9.png");
+      background-position: 30% 50%;
+    }
+    &-10{
+      background-image: url("../img/advantages/10.png");
+      background-position: 30% 50%;
+    }
+    &-11{
+      background-image: url("../img/advantages/11.png");
+      background-position: 30% 50%;
+    }
+    &-12{
+      background-image: url("../img/advantages/12.png");
+      background-position: 30% 50%;
+    }
+
+  }
+}
+
+@media all and (min-width: 1500px) {
+  .advantages__item {
+    margin: 0 70px;
+    margin-bottom: 70px;
+  }
+}
+
+@media all and (min-width: 1800px) {
+  .advantages__item {
+    margin: 0 100px;
+    margin-bottom: 70px;
+  }
+}
+
+@media all and (max-width: 1320px) {
+  .advantages__item {
+    margin: 0 30px;
+    margin-bottom: 70px;
+  }
+}
+
+@media all and (max-width: 1160px) {
+  .advantages__item {
+    margin: 0 10px;
+    margin-bottom: 70px;
+  }
+}
+
