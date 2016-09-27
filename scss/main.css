@@ -569,7 +569,8 @@ textarea {
   background-image: url("../img/header/bottom-line.png");
   background-size: 50%;
   background-position: 50% 100%;
-  background-repeat: no-repeat; }
+  background-repeat: no-repeat;
+  box-sizing: border-box; }
   .key-advantage-item {
     position: relative;
     display: -webkit-box;
@@ -590,7 +591,8 @@ textarea {
         -ms-flex-align: center;
             align-items: center;
     width: 200px;
-    height: 240px; }
+    height: 240px;
+    overflow: hidden; }
     .key-advantage-item__rectangle {
       position: absolute;
       top: 28px;
@@ -713,7 +715,6 @@ textarea {
     display: flex;
     width: 225px;
     height: 115px;
-    border: 1px solid black;
     margin: 0 50px;
     margin-bottom: 70px; }
     .advantages__item-container {
