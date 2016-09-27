@@ -1,4 +1,5 @@
 .key-advantage {
+  position: relative;
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -68,6 +69,24 @@
     &__image4 {
       background: url("../img/header/certificate.png") no-repeat center;
     }
+  }
+}
+
+.key-advantage__decor {
+  position: absolute;
+  top: -50px;
+  left: calc(50% - 50px);
+  width: 0;
+  height: 0;
+  border-left: 50px solid transparent;
+  border-right: 50px solid transparent;
+  border-bottom: 50px solid #fff;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+
+  &-image {
+    padding-top: 25px;
   }
 }
 

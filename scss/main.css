@@ -549,6 +549,7 @@ textarea {
           -ms-flex-item-align: center;
               align-self: center; } }
 .key-advantage {
+  position: relative;
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -639,6 +640,30 @@ textarea {
       background: url("../img/header/garanty.png") no-repeat center; }
     .key-advantage-item__image4 {
       background: url("../img/header/certificate.png") no-repeat center; }
+
+.key-advantage__decor {
+  position: absolute;
+  top: -50px;
+  left: calc(50% - 50px);
+  width: 0;
+  height: 0;
+  border-left: 50px solid transparent;
+  border-right: 50px solid transparent;
+  border-bottom: 50px solid #fff;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: start;
+  -webkit-align-items: flex-start;
+      -ms-flex-align: start;
+          align-items: flex-start; }
+  .key-advantage__decor-image {
+    padding-top: 25px; }
 
 @media all and (max-width: 1000px) {
   .key-advantage {
