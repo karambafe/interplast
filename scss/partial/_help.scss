@@ -1,0 +1,191 @@
+.help {
+  position: relative;
+  width: 100%;
+  background-color: #f0f2f7;
+  padding: 80px 0 40px 0;
+
+  &__header {
+    margin-bottom: 50px;
+    font-size: 32px;
+    font-family: "Roboto";
+    color: rgb(51, 51, 51);
+    font-weight: bold;
+    line-height: 1.188;
+    text-align: center;
+  }
+
+  &__description {
+    width: 100%;
+    min-height: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 0 20px;
+
+    &-span {
+      font-size: 16px;
+      font-family: "Roboto";
+      color: rgb(51, 51, 51);
+      line-height: 1.5;
+      text-align: center;
+
+      &-a {
+        text-transform: uppercase;
+        color: #405fa8;
+        text-decoration: none;
+        font-weight: bold;
+      }
+    }
+
+    &-logo {
+      width: 120px;
+      height: 25px;
+      margin-left: 15px;
+      background: url("../img/help/logo.png") no-repeat center;
+      background-size: cover;
+    }
+
+  }
+
+  &__container {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+
+  &__item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 260px;
+    margin: 0 60px;
+    margin-bottom: 50px;
+
+    &-price {
+      margin-top: 20px;
+      margin-bottom: 10px;
+      font-size: 24px;
+      font-family: "Roboto";
+      color: rgba(51, 51, 51, 0.659);
+      line-height: 1.167;
+    }
+
+    &-want {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 195px;
+      height: 40px;
+      border: 1px solid #405fa8;
+      border-radius: 15px;
+      text-decoration: none;
+      text-transform: uppercase;
+      font-size: 24px;
+      font-family: "Roboto";
+      color: #405fa8;
+      line-height: 1.167;
+    }
+
+    &-image {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 260px;
+      height: 160px;
+      padding: 0 20px;
+      font-size: 18px;
+      font-family: "Roboto";
+      color: rgb(240, 242, 247);
+      font-weight: bold;
+      text-align: center;
+      text-transform: uppercase;
+      line-height: 1.222;
+
+      &-1 {
+        background: url("../img/help/1.png") no-repeat center;
+        background-size: cover;
+      }
+
+      &-2 {
+        background: url("../img/help/2.png") no-repeat center;
+        background-size: cover;
+      }
+
+      &-3 {
+        background: url("../img/help/3.png") no-repeat center;
+        background-size: cover;
+      }
+
+      &-4 {
+        background: url("../img/help/4.png") no-repeat center;
+        background-size: cover;
+      }
+
+      &-5 {
+        background: url("../img/help/5.png") no-repeat center;
+        background-size: cover;
+      }
+    }
+
+    &-title {
+      font-size: 18px;
+      font-family: "Roboto";
+      color: rgb(64, 95, 168);
+      font-weight: bold;
+      text-transform: uppercase;
+      text-align: center;
+      padding: 20px 30px;
+    }
+
+    &-click {
+      font-size: 16px;
+      font-family: "Roboto";
+      color: rgb(51, 51, 51);
+      line-height: 1.5;
+      text-align: center;
+      padding: 0 30px;
+    }
+  }
+}
+
+.help__decor {
+  position: absolute;
+  top: -50px;
+  left: calc(50% - 50px);
+  width: 0;
+  height: 0;
+  border-left: 50px solid transparent;
+  border-right: 50px solid transparent;
+  border-bottom: 50px solid #f0f2f7;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+
+  &-image {
+    padding-top: 25px;
+  }
+}
+
+@media all and (min-width: 1500px) {
+  .help__item {
+    margin: 0 70px;
+    margin-bottom: 50px;
+  }
+}
+
+@media all and (min-width: 1800px) {
+  .help__item {
+    margin: 0 120px;
+    margin-bottom: 50px;
+  }
+}
+
+@media all and (max-width: 1160px) {
+  .help__item {
+    margin: 0 33px;
+    margin-bottom: 50px;
+  }
+}
+
