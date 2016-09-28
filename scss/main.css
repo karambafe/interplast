@@ -1229,3 +1229,97 @@ textarea {
   .how-work__form-submit {
     margin: 0 100px;
     margin-top: 20px; } }
+.talk {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 100%;
+  padding: 50px 0 100px; }
+  .talk__title {
+    margin: 0;
+    font-size: 32px;
+    font-family: "Roboto";
+    color: #333333;
+    font-weight: bold;
+    line-height: 1.188; }
+  .talk__container {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex; }
+  .talk__item {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: start;
+    -webkit-align-items: flex-start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+    width: 250px; }
+    .talk__item-image {
+      width: 230px;
+      height: 130px;
+      -webkit-align-self: flex-end;
+          -ms-flex-item-align: end;
+              align-self: flex-end;
+      margin-bottom: 20px; }
+      .talk__item-image-1 {
+        background: url("../img/talk/talk-1.png") no-repeat;
+        background-size: cover; }
+      .talk__item-image-2 {
+        background: url("../img/talk/talk-2.png") no-repeat;
+        background-size: cover; }
+      .talk__item-image-3 {
+        background: url("../img/talk/talk-3.png") no-repeat;
+        background-size: cover; }
+      .talk__item-image-4 {
+        background: url("../img/talk/talk-4.png") no-repeat;
+        background-size: cover; }
+    .talk__item-name {
+      display: block;
+      padding-left: 20px;
+      margin-bottom: 10px;
+      font-size: 24px;
+      font-family: "Roboto";
+      color: #333333;
+      line-height: 0.917; }
+    .talk__item-car {
+      display: block;
+      padding-left: 20px;
+      font-size: 18px;
+      font-family: "Roboto";
+      color: rgba(64, 95, 168, 0.549);
+      font-weight: bold;
+      text-transform: uppercase;
+      line-height: 1.222; }
+    .talk__item-text {
+      padding-left: 20px;
+      font-size: 14px;
+      font-family: "Roboto";
+      color: #333333;
+      font-style: italic;
+      line-height: 1.571; }
+      .talk__item-text::before {
+        content: "<<";
+        font-size: 28px;
+        color: #405fa8; }
+      .talk__item-text::after {
+        content: ">>";
+        font-size: 28px;
+        color: #405fa8; }

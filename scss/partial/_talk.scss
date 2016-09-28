@@ -1,0 +1,119 @@
+.talk {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  padding: 50px 0 100px;
+
+  &__title {
+    margin: 0;
+    font-size: 32px;
+    font-family: "Roboto";
+    color: rgb(51, 51, 51);
+    font-weight: bold;
+    line-height: 1.188;
+  }
+
+  &__container {
+    display: flex;
+  }
+
+  &__item {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 250px;
+
+    &-image {
+      width: 230px;
+      height: 130px;
+      align-self: flex-end;
+      margin-bottom: 20px;
+
+      &-1 {
+        background: url("../img/talk/talk-1.png") no-repeat;
+        background-size: cover;
+      }
+
+      &-2 {
+        background: url("../img/talk/talk-2.png") no-repeat;
+        background-size: cover;
+      }
+
+      &-3 {
+        background: url("../img/talk/talk-3.png") no-repeat;
+        background-size: cover;
+      }
+
+      &-4 {
+        background: url("../img/talk/talk-4.png") no-repeat;
+        background-size: cover;
+      }
+    }
+
+    &-name {
+      display: block;
+      padding-left: 20px;
+      margin-bottom: 10px;
+      font-size: 24px;
+      font-family: "Roboto";
+      color: rgb(51, 51, 51);
+      line-height: 0.917;
+    }
+
+    &-car {
+      display: block;
+      padding-left: 20px;
+      font-size: 18px;
+      font-family: "Roboto";
+      color: rgba(64, 95, 168, 0.549);
+      font-weight: bold;
+      text-transform: uppercase;
+      line-height: 1.222;
+    }
+
+    &-text {
+      padding-left: 20px;
+      font-size: 14px;
+      font-family: "Roboto";
+      color: rgb(51, 51, 51);
+      font-style: italic;
+      line-height: 1.571;
+
+      &::before {
+        content: "<<";
+        font-size: 28px;
+        color: #405fa8;
+      }
+
+      &::after {
+        content: ">>";
+        font-size: 28px;
+        color: #405fa8;
+      }
+
+      //&::before {
+      //  content: '';
+      //  display: block;
+      //  width: 18px;
+      //  height: 18px;
+      //  background: url("../img/talk/open-quote.png") no-repeat;
+      //
+      //}
+      //
+      //&::after{
+      //  content: '';
+      //  display: block;
+      //  width: 18px;
+      //  height: 18px;
+      //  background: url("../img/talk/close-qoute.png") no-repeat;
+      //
+      //}
+    }
+  }
+}
+
+
+
+
+
