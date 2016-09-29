@@ -1,0 +1,80 @@
+.certificate {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  height: 300px;
+  background: url("../img/certificate/background-min.png") no-repeat;
+  background-size: cover;
+
+  &__dinitrol {
+    display: block;
+
+    &-off {
+      display: block;
+      font-size: 24px;
+      font-family: "Roboto";
+      color: rgb(51, 51, 51);
+      line-height: 1.583;
+      text-align: center;
+    }
+
+    &-din {
+      display: block;
+      font-size: 28px;
+      font-weight: bold;
+      font-family: "Roboto";
+      color: #005ead;
+      line-height: 1.583;
+      text-align: center;
+    }
+  }
+
+  &__show {
+    position: relative;
+    align-self: flex-end;
+    width: 250px;
+    height: 250px;
+    overflow: hidden;
+
+    &-wrapper {
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding-top: 50px;
+
+      &-loop {
+        width: 60px;
+        height: 60px;
+        border-radius: 50%;
+        background-color: #fff;
+        opacity: 0.8;
+        background: #fff url("../img/certificate/loop.png") no-repeat 55% 55%;
+      }
+    }
+  }
+}
+
+@media all and (max-width: 665px) {
+  .certificate {
+    flex-wrap: wrap;
+    height: 100%;
+    padding-top: 30px;
+
+    &__dinitrol {
+      order: 1;
+      margin: 0 40px;
+    }
+
+    &__show {
+      order: 2;
+    }
+  }
+}
+
+
