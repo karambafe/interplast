@@ -409,10 +409,10 @@ textarea {
   height: 50px;
   will-change: unset; }
   .navbar__logo {
-    width: 30px;
+    width: 130px;
     height: 30px;
     background-image: url("../img/header/logo.png");
-    background-size: cover; }
+    background-size: contain; }
   .navbar__call {
     display: -webkit-box;
     display: -webkit-flex;
@@ -481,8 +481,23 @@ textarea {
           align-items: center;
   width: 100%;
   height: 590px;
-  background: url("../img/offer/background.jpg") no-repeat center;
+  background: url("../img/offer/back.jpg") no-repeat center;
   background-size: cover; }
+  .offer-wrapper {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    height: 100%; }
+  .offer-inspection {
+    width: 300px;
+    height: 260px;
+    background: url("../img/offer/inspection.png") no-repeat center;
+    background-size: cover;
+    -webkit-align-self: flex-end;
+        -ms-flex-item-align: end;
+            align-self: flex-end;
+    margin-bottom: 111px; }
   .offer-information {
     width: 360px;
     height: 100%;
@@ -592,7 +607,7 @@ textarea {
           font-size: 14px;
           color: red; }
 
-@media all and (max-width: 1000px) {
+@media all and (max-width: 1100px) {
   .offer {
     height: 100%;
     -webkit-box-orient: vertical;
@@ -601,12 +616,18 @@ textarea {
         -ms-flex-direction: column;
             flex-direction: column;
     padding-bottom: 70px; }
+    .offer-inspection {
+      margin: 0;
+      margin-top: 50px; }
     .offer-information {
       padding-top: 30px; }
     .offer-sign__form {
       -webkit-align-self: center;
           -ms-flex-item-align: center;
               align-self: center; } }
+@media all and (max-width: 730px) {
+  .offer-inspection {
+    display: none; } }
 @media all and (max-width: 400px) {
   .offer-information {
     width: 100%;

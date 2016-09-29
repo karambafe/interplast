@@ -13,10 +13,10 @@
   will-change: unset;
 
   &__logo {
-    width: 30px;
+    width: 130px;
     height: 30px;
     background-image: url("../img/header/logo.png");
-    background-size: cover;
+    background-size: contain;
   }
 
   &__call {
