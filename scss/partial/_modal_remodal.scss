@@ -1,0 +1,82 @@
+.modalForm {
+  width: 310px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  &__title {
+    margin: 0;
+    display: block;
+    font-size: 24px;
+    font-family: "Roboto";
+    color: rgb(51, 51, 51);
+    line-height: 1.167;
+    text-align: left;
+  }
+
+  &__text {
+    display: block;
+    font-size: 18px;
+    font-family: "Roboto";
+    color: rgb(64, 95, 168);
+    font-weight: bold;
+    margin-bottom: 35px;
+    margin-top: 10px;
+    text-transform: uppercase;
+  }
+
+  &-label {
+    margin-bottom: 10px;
+    font-size: 14px;
+    font-family: "Roboto";
+    color: rgba(51, 51, 51, 0.659);
+    line-height: 2;
+    text-align: left;
+  }
+
+  &-input {
+    width: 260px;
+    height: 45px;
+    background-color: #e3e7f2;
+    padding: 0 10px;
+    font-size: 16px;
+    font-family: "Roboto";
+    color: rgb(64, 95, 168);
+    line-height: 1.375;
+  }
+
+  &-submit {
+    width: 260px;
+    height: 45px;
+    margin-top: 25px;
+    border-radius: 20px;
+    border: 1px solid #005ead;
+    background-color: #005ead;
+    color: #fff;
+    font-weight: 300;
+    text-transform: uppercase;
+
+    &:hover {
+      color: #005ead;
+      background-color: #fff;
+      border-color: #005ead;
+      transition: all 0.3s ease;
+    }
+  }
+}
+
+.Алексей {
+  font-size: 16px;
+  font-family: "Roboto";
+  color: rgb(64, 95, 168);
+  line-height: 1.375;
+  text-align: left;
+  position: absolute;
+  left: 478.625px;
+  top: 176.5px;
+  z-index: 37;
+}
+
+
+
+

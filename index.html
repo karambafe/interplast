@@ -12,6 +12,8 @@
 
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="scss/main.css">
+    <link rel="stylesheet" href="modal/css/remodal.css">
+    <link rel="stylesheet" href="modal/css/remodal-default-theme.css">
     <link href="https://fonts.googleapis.com/css?family=Roboto+Slab|Roboto:300,400,700&subset=cyrillic" rel="stylesheet">
     <script src="js/vendor/modernizr-2.8.3.min.js"></script>
   </head>
@@ -180,27 +182,27 @@
         <div class="help__item">
           <div class="help__item-image help__item-image-1">Обработка днища + мойка и сушка </div>
           <span class="help__item-price">от 3350 руб.</span>
-          <a href="/" class="help__item-want">Хочу</a>
+          <a href="#modal" class="help__item-want">Хочу</a>
         </div>
         <div class="help__item">
           <div class="help__item-image help__item-image-2">Обработка колесных арок </div>
           <span class="help__item-price">от 3350 руб.</span>
-          <a href="/" class="help__item-want">Хочу</a>
+          <a href="#modal" class="help__item-want">Хочу</a>
         </div>
         <div class="help__item">
           <div class="help__item-image help__item-image-3">Обработка скрытых полостей </div>
           <span class="help__item-price">от 3350 руб.</span>
-          <a href="/" class="help__item-want">Хочу</a>
+          <a href="#modal" class="help__item-want">Хочу</a>
         </div>
         <div class="help__item">
           <div class="help__item-image help__item-image-4">Обработка моторного отсека </div>
           <span class="help__item-price">от 3350 руб.</span>
-          <a href="/" class="help__item-want">Хочу</a>
+          <a href="#modal" class="help__item-want">Хочу</a>
         </div>
         <div class="help__item">
           <div class="help__item-image help__item-image-5">Комплексная обработка </div>
           <span class="help__item-price">от 3350 руб.</span>
-          <a href="/" class="help__item-want">Хочу</a>
+          <a href="#modal" class="help__item-want">Хочу</a>
         </div>
         <div class="help__item">
           <h1 class="help__item-title">Не определились с выбором?</h1>
@@ -362,8 +364,28 @@
       <div class="navbar__phone">8 831 200-31-35</div>
     </section>
 
+    <div class="remodal" data-remodal-id="modal" role="dialog" aria-labelledby="modal1Title" aria-describedby="modal1Desc">
+      <form id="form" method="post" class="modalForm">
+        <!--<h2 id="modal1Title" class="text-for-form">Оставьте ваши контактные данные. Наш консультант свяжется <br>с вами</h2>-->
+        <!--<input type="text" id='putName' class="putName" name="name" placeholder="Ваше ваше имя" required>-->
+        <!--<input name="phone" type="tel" id="putPhone" class="putPhone" placeholder="Телефон в виде 8-XXX-XXXXXXX" pattern="\8\-[0-9]{3}\-[0-9]{7}" required>-->
+        <!--<input id="btn_form_sbm" type="submit" name="submit" class="btn_form" value="ОТПРАВИТЬ">-->
+        <!--<input type="hidden" name="formData" value="Заявка с сайта">-->
+        <h2 class="modalForm__title">Я хочу заказать услугу</h2>
+        <span class="modalForm__text">Шумоизоляции</span>
+        <label class="modalForm-label">Как вас зовут <br>
+          <input type="text" class="modalForm-input" required>
+        </label>
+        <label class="modalForm-label">Ваш телефон <br>
+          <input type="text" class="modalForm-input" required>
+        </label>
+        <input type="submit" class="modalForm-submit" value="Заказать услугу">
+      </form>
+    </div>
+
     <script src="https://code.jquery.com/jquery-1.12.2.min.js"></script>
     <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.12.2.min.js"><\/script>')</script>
+    <script src="modal/js/remodal.min.js"></script>
     <script src="js/plugins.js"></script>
     <script src="js/main.js"></script>
   </body>
