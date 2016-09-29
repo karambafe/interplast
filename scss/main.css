@@ -1657,7 +1657,7 @@ textarea {
           text-align: left; }
   .contacts__map {
     width: calc(100vw - 427px);
-    height: 347px; }
+    height: 375px; }
 
 @media all and (max-width: 1000px) {
   .contacts {
