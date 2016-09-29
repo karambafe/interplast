@@ -93,6 +93,10 @@
         font-family: "Roboto";
         color: rgb(64, 95, 168);
         line-height: 1.375;
+
+        &_error {
+          border: 1px solid red;
+        }
       }
 
       &-submit {
@@ -110,6 +114,16 @@
           border-color: #fff;
           background-color: transparent;
           transition: all 0.3s ease;
+        }
+      }
+
+      &-error {
+        display: none;
+
+        &_active {
+          display: block;
+          font-size: 14px;
+          color: red;
         }
       }
     }

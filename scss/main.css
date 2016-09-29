@@ -568,6 +568,8 @@ textarea {
         font-family: "Roboto";
         color: #405fa8;
         line-height: 1.375; }
+        .offer-sign__form-input_error {
+          border: 1px solid red; }
       .offer-sign__form-submit {
         width: 260px;
         height: 40px;
@@ -583,6 +585,12 @@ textarea {
           background-color: transparent;
           -webkit-transition: all 0.3s ease;
                   transition: all 0.3s ease; }
+      .offer-sign__form-error {
+        display: none; }
+        .offer-sign__form-error_active {
+          display: block;
+          font-size: 14px;
+          color: red; }
 
 @media all and (max-width: 1000px) {
   .offer {

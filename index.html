@@ -55,15 +55,16 @@
         <span class="offer-sign__description">Заполните форму ниже и получите диагностику в труднодоступных местах эндоскопом в подарок</span>
         <form class="offer-sign__form" action="offer.php" method="post">
           <label class="offer-sign__form-label">Как вас зовут
-            <input type="text" name="offer-name" class="offer-sign__form-input" required>
+            <input type="text" name="offerName" class="offer-sign__form-input">
           </label>
           <label class="offer-sign__form-label">Ваш телефон
-            <input type="text" name="offer-tel" class="offer-sign__form-input" required>
+            <input type="text" name="offerTel" class="offer-sign__form-input">
           </label>
           <label class="offer-sign__form-label">Какой у Вас автомобиль
-            <input type="text" name="offer-car" class="offer-sign__form-input">
+            <input type="text" name="offerCar" class="offer-sign__form-input">
           </label>
-          <input type="submit" class="offer-sign__form-submit" name="apply" value="Записаться">
+          <span class="offer-sign__form-error">Заполните все поля!</span>
+          <input type="submit" class="offer-sign__form-submit" name="apply" onclick="validate(this.form)" value="Записаться">
         </form>
       </div>
     </section>

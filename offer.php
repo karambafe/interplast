@@ -1,9 +1,9 @@
 <?php
 $success_url = './success';
 
-$name = htmlspecialchars($_POST["offer-name"]);
-$phone = htmlspecialchars($_POST["offer-tel"]);
-$car = htmlspecialchars($_POST["offer-car"]);
+$name = htmlspecialchars($_POST["offerName"]);
+$phone = htmlspecialchars($_POST["offerTel"]);
+$car = htmlspecialchars($_POST["offerCar"]);
 
   // от кого
 		$fromMail = 'Interplast@yandex.ru';
