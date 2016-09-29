@@ -67,6 +67,11 @@
         font-family: "Roboto";
         color: rgb(64, 95, 168);
         line-height: 1.375;
+        border: 1px solid #e3e7f2;
+
+        &_error {
+          border: 1px solid red;
+        }
       }
 
       &-submit {
@@ -85,6 +90,19 @@
           background-color: #fff;
           border-color: #005ead;
           transition: all 0.3s ease;
+        }
+      }
+
+      &-error {
+        display: none;
+
+        &_active {
+          margin-top: 8px;
+          display: block;
+          width: 100%;
+          text-align: center;
+          font-size: 14px;
+          color: red;
         }
       }
     }

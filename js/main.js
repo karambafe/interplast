@@ -48,3 +48,37 @@ function validateOffer(form) {
     elems.offerCar.classList.add('offer-sign__form-input_error');
   }
 }
+
+function validateContasts(form) {
+  var elems = form.elements;
+  var contactsName = elems.contactsName.value;
+  var contactsPhone = elems.contactsPhone.value;
+
+  var howWork = document.getElementsByClassName('how-work__form-input_error');
+  for (i=0; i < (howWork.length) ; i++) {
+    howWork[i].classList.remove('how-work__form-input_error');
+    document.getElementsByClassName("how-work__form-error")[0].classList.remove('how-work__form-error_active');
+  }
+
+  var contacts = document.getElementsByClassName('contacts__questions-form-input_error');
+  for (i=0; i < (contacts.length) ; i++) {
+    contacts[i].classList.remove('contacts__questions-form-input_error');
+    document.getElementsByClassName("contacts__questions-form-error")[0].classList.remove('contacts__questions-form_active');
+  }
+
+  if (!contactsName) {
+    event.preventDefault();
+    document.getElementsByClassName("how-work__form-error")[0].classList.add('how-work__form-error_active');
+    elems.contactsName.classList.add('how-work__form-input_error');
+    document.getElementsByClassName("contacts__questions-form-error")[0].classList.add('contacts__questions-form-error_active');
+    elems.contactsName.classList.add('contacts__questions-form-input_error');
+  }
+
+  if (!contactsPhone) {
+    event.preventDefault();
+    document.getElementsByClassName("how-work__form-error")[0].classList.add('how-work__form-error_active');
+    elems.contactsPhone.classList.add('how-work__form-input_error');
+    document.getElementsByClassName("contacts__questions-form-error")[0].classList.add('contacts__questions-form-error_active');
+    elems.contactsPhone.classList.add('contacts__questions-form-input_error');
+  }
+}

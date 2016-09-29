@@ -255,13 +255,14 @@
       <span class="how-work__questions-text">Оставьте заявку на бесплатную консультацию</span>
       <form class="how-work__form" action="contacts.php" method="post">
         <label class="how-work__form-label">Как вас зовут <br>
-          <input type="text" name="contacts-name"  class="how-work__form-input">
+          <input type="text" name="contactsName"  class="how-work__form-input">
         </label>
         <label class="how-work__form-label">Ваш телефон <br>
-          <input type="text" name="contacts-phone" class="how-work__form-input">
+          <input type="text" name="contactsPhone" class="how-work__form-input">
         </label>
-        <input type="submit" class="how-work__form-submit" value="Получить консультацию">
+        <input type="submit" class="how-work__form-submit" onclick="validateContasts(this.form)"  value="Получить консультацию">
       </form>
+      <span class="how-work__form-error">Заполните все поля!</span>
     </section>
 
     <section class="talk">
@@ -329,12 +330,13 @@
         <span class="contacts__questions-text">Оставьте заявку на бесплатную консультацию</span>
         <form class="contacts__questions-form" action="contacts.php" method="post">
           <label class="contacts__questions-form-label">Как вас зовут <br>
-            <input type="text" name="contacts-name" class="contacts__questions-form-input">
+            <input type="text" name="contactsName" class="contacts__questions-form-input">
           </label>
           <label class="contacts__questions-form-label">Ваш телефон <br>
-            <input type="text" name="contacts-phone" class="contacts__questions-form-input">
+            <input type="text" name="contactsPhone" class="contacts__questions-form-input">
           </label>
-          <input type="submit" class="contacts__questions-form-submit" value="Получить консультацию">
+          <input type="submit" class="contacts__questions-form-submit" onclick="validateContasts(this.form)" value="Получить консультацию">
+          <span class="contacts__questions-form-error">Заполните все поля!</span>
         </form>
         <span class="contacts__questions-copyright">© 1996-2016. Антикоррозийный центр Интерпласт</span>
       </div>

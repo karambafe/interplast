@@ -1279,7 +1279,10 @@ textarea {
       width: 260px;
       height: 35px;
       background-color: #e3e7f2;
-      padding: 0 10px; }
+      padding: 0 10px;
+      border: 1px solid #e3e7f2; }
+      .how-work__form-input_error {
+        border: 1px solid red; }
     .how-work__form-submit {
       -webkit-align-self: flex-end;
           -ms-flex-item-align: end;
@@ -1298,6 +1301,15 @@ textarea {
         border-color: #005ead;
         -webkit-transition: all 0.3s ease;
                 transition: all 0.3s ease; }
+    .how-work__form-error {
+      display: none; }
+      .how-work__form-error_active {
+        margin-top: 8px;
+        display: block;
+        width: 100%;
+        text-align: center;
+        font-size: 14px;
+        color: red; }
 
 @media all and (max-width: 1260px) {
   .how-work__item {
@@ -1619,7 +1631,10 @@ textarea {
         font-size: 16px;
         font-family: "Roboto";
         color: #405fa8;
-        line-height: 1.375; }
+        line-height: 1.375;
+        border: 1px solid #e3e7f2; }
+        .contacts__questions-form-input_error {
+          border: 1px solid red; }
       .contacts__questions-form-submit {
         width: 260px;
         height: 45px;
@@ -1636,6 +1651,15 @@ textarea {
           border-color: #005ead;
           -webkit-transition: all 0.3s ease;
                   transition: all 0.3s ease; }
+      .contacts__questions-form-error {
+        display: none; }
+        .contacts__questions-form-error_active {
+          margin-top: 8px;
+          display: block;
+          width: 100%;
+          text-align: center;
+          font-size: 14px;
+          color: red; }
   .contacts__wrapper {
     -webkit-box-flex: 1;
     -webkit-flex-grow: 1;

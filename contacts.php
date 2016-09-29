@@ -1,8 +1,8 @@
 <?php
 $success_url = './success';
 
-$name = htmlspecialchars($_POST["contacts-name"]);
-$phone = htmlspecialchars($_POST["contacts-phone"]);
+$name = htmlspecialchars($_POST["contactsName"]);
+$phone = htmlspecialchars($_POST["contactsPhone"]);
 
   // от кого
 		$fromMail = 'Interplast@yandex.ru';
