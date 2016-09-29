@@ -95,10 +95,18 @@
         width: 260px;
         height: 40px;
         border-radius: 20px;
-        background-color: #405fa8;
+        border: 1px solid #005ead;
+        background-color: #005ead;
         color: #fff;
         text-transform: uppercase;
         margin-top: 15px;
+
+        &:hover {
+          color: #fff;
+          border-color: #fff;
+          background-color: transparent;
+          transition: all 0.3s ease;
+        }
       }
     }
   }

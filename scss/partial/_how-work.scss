@@ -124,10 +124,18 @@
       width: 260px;
       height: 35px;
       border-radius: 20px;
-      background-color: #405fa8;
+      border: 1px solid #005ead;
+      background-color: #005ead;
       color: #fff;
       font-weight: 300;
       text-transform: uppercase;
+
+      &:hover {
+        color: #005ead;
+        background-color: #fff;
+        border-color: #005ead;
+        transition: all 0.3s ease;
+      }
     }
   }
 }

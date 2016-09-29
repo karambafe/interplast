@@ -55,6 +55,11 @@
         background-color: #fff;
         opacity: 0.8;
         background: #fff url("../img/certificate/loop.png") no-repeat 55% 55%;
+
+        &:hover {
+          background: #5570ae url("../img/certificate/loop-white.png") no-repeat 55% 55%;
+          transition: background-color 0.3s ease;
+        }
       }
     }
   }

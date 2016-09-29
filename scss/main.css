@@ -327,12 +327,17 @@ textarea {
       text-decoration: none;
       border-style: solid;
       border-width: 1px;
-      border-color: #405fa8;
+      border-color: #005ead;
       border-radius: 12px;
-      background-color: transparent;
-      color: #405fa8;
+      background-color: #fff;
+      color: #005ead;
       font-size: 12px;
       text-transform: uppercase; }
+      .header__call-button:hover {
+        color: #fff;
+        background-color: #005ead;
+        -webkit-transition: all 0.3s ease;
+                transition: all 0.3s ease; }
 
 @media all and (max-width: 1200px) {
   .header__adress,
@@ -426,12 +431,17 @@ textarea {
     text-decoration: none;
     border-style: solid;
     border-width: 1px;
-    border-color: #405fa8;
+    border-color: #005ead;
     border-radius: 12px;
-    background-color: transparent;
-    color: #405fa8;
+    background-color: #fff;
+    color: #005ead;
     font-size: 12px;
     text-transform: uppercase; }
+    .navbar__call:hover {
+      color: #fff;
+      background-color: #005ead;
+      -webkit-transition: all 0.3s ease;
+              transition: all 0.3s ease; }
   .navbar__phone {
     font-size: 18px;
     line-height: 22px;
@@ -558,10 +568,17 @@ textarea {
         width: 260px;
         height: 40px;
         border-radius: 20px;
-        background-color: #405fa8;
+        border: 1px solid #005ead;
+        background-color: #005ead;
         color: #fff;
         text-transform: uppercase;
         margin-top: 15px; }
+        .offer-sign__form-submit:hover {
+          color: #fff;
+          border-color: #fff;
+          background-color: transparent;
+          -webkit-transition: all 0.3s ease;
+                  transition: all 0.3s ease; }
 
 @media all and (max-width: 1000px) {
   .offer {
@@ -932,14 +949,19 @@ textarea {
               align-items: center;
       width: 195px;
       height: 40px;
-      border: 1px solid #405fa8;
+      border: 1px solid #005ead;
       border-radius: 15px;
       text-decoration: none;
       text-transform: uppercase;
       font-size: 24px;
       font-family: "Roboto";
-      color: #405fa8;
+      color: #005ead;
       line-height: 1.167; }
+      .help__item-want:hover {
+        color: #fff;
+        background-color: #005ead;
+        -webkit-transition: all 0.3s ease;
+                transition: all 0.3s ease; }
     .help__item-image {
       display: -webkit-box;
       display: -webkit-flex;
@@ -1253,10 +1275,17 @@ textarea {
       width: 260px;
       height: 35px;
       border-radius: 20px;
-      background-color: #405fa8;
+      border: 1px solid #005ead;
+      background-color: #005ead;
       color: #fff;
       font-weight: 300;
       text-transform: uppercase; }
+      .how-work__form-submit:hover {
+        color: #005ead;
+        background-color: #fff;
+        border-color: #005ead;
+        -webkit-transition: all 0.3s ease;
+                transition: all 0.3s ease; }
 
 @media all and (max-width: 1260px) {
   .how-work__item {
@@ -1472,6 +1501,10 @@ textarea {
         background-color: #fff;
         opacity: 0.8;
         background: #fff url("../img/certificate/loop.png") no-repeat 55% 55%; }
+        .certificate__show-wrapper-loop:hover {
+          background: #5570ae url("../img/certificate/loop-white.png") no-repeat 55% 55%;
+          -webkit-transition: background-color 0.3s ease;
+                  transition: background-color 0.3s ease; }
 
 @media all and (max-width: 665px) {
   .certificate {
@@ -1576,10 +1609,17 @@ textarea {
         height: 45px;
         margin-top: 25px;
         border-radius: 20px;
-        background-color: #405fa8;
+        border: 1px solid #005ead;
+        background-color: #005ead;
         color: #fff;
         font-weight: 300;
         text-transform: uppercase; }
+        .contacts__questions-form-submit:hover {
+          color: #005ead;
+          background-color: #fff;
+          border-color: #005ead;
+          -webkit-transition: all 0.3s ease;
+                  transition: all 0.3s ease; }
   .contacts__wrapper {
     -webkit-box-flex: 1;
     -webkit-flex-grow: 1;

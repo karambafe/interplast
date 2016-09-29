@@ -78,14 +78,20 @@
       align-items: center;
       width: 195px;
       height: 40px;
-      border: 1px solid #405fa8;
+      border: 1px solid #005ead;
       border-radius: 15px;
       text-decoration: none;
       text-transform: uppercase;
       font-size: 24px;
       font-family: "Roboto";
-      color: #405fa8;
+      color: #005ead;
       line-height: 1.167;
+
+      &:hover {
+        color: #fff;
+        background-color: #005ead;
+        transition: all 0.3s ease;
+      }
     }
 
     &-image {
