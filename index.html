@@ -36,7 +36,7 @@
       </ul>
       <div class="header__call">
         <span class="header__call-phone">8 831 200-31-35</span>
-        <a href="/" class="header__call-button">Заказать звонок</a>
+        <a href="#modal" class="header__call-button">Заказать звонок</a>
       </div>
     </header>
 
@@ -53,17 +53,17 @@
       <div class="offer-sign">
         <span class="offer-sign__header">Запишитесь на антикоррозийную обработку вашего автомобиля</span>
         <span class="offer-sign__description">Заполните форму ниже и получите диагностику в труднодоступных местах эндоскопом в подарок</span>
-        <form class="offer-sign__form">
+        <form class="offer-sign__form" action="offer.php" method="post">
           <label class="offer-sign__form-label">Как вас зовут
-            <input type="text" class="offer-sign__form-input">
+            <input type="text" name="offer-name" class="offer-sign__form-input">
           </label>
           <label class="offer-sign__form-label">Ваш телефон
-            <input type="text" class="offer-sign__form-input">
+            <input type="text" name="offer-tel" class="offer-sign__form-input">
           </label>
           <label class="offer-sign__form-label">Какой у Вас автомобиль
-            <input type="text" class="offer-sign__form-input">
+            <input type="text" name="offer-car" class="offer-sign__form-input">
           </label>
-          <input type="submit" class="offer-sign__form-submit" value="Записаться">
+          <input type="submit" class="offer-sign__form-submit" name="apply" value="Записаться">
         </form>
       </div>
     </section>
@@ -360,7 +360,7 @@
 
     <section class="navbar">
       <div class="navbar__logo"></div>
-      <a href="/" class="navbar__call">Заказать звонок</a>
+      <a href="#modal" class="navbar__call">Заказать звонок</a>
       <div class="navbar__phone">8 831 200-31-35</div>
     </section>
 
@@ -380,6 +380,7 @@
           <input type="text" class="modalForm-input" required>
         </label>
         <input type="submit" class="modalForm-submit" value="Заказать услугу">
+        <span class="modalForm__bottom">Наш менеджер свяжется с вами в течение 10 минут</span>
       </form>
     </div>
 
