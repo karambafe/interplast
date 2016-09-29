@@ -20,6 +20,7 @@
     margin-top: 10px;
     margin-right: 30px;
     background-image: url("../img/header/logo.png");
+    background-size: cover;
   }
 
   &__name {
@@ -114,6 +115,15 @@
   }
 
   .header {
+    height: 50px;
+
+    &__logo {
+      align-self: center;
+      width: 30px;
+      height: 30px;
+      margin: 0;
+    }
+
     &__call {
       flex-direction: row-reverse;
       justify-content: space-around;
@@ -122,5 +132,15 @@
     &__container-logo {
       flex-grow: 1;
     }
+  }
+}
+
+@media all and (max-width: 400px) {
+  .header__logo {
+    display: none;
+  }
+
+  .header__call {
+    justify-content: space-between;
   }
 }

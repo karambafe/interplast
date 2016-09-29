@@ -108,11 +108,29 @@
   .offer {
     height: 100%;
     flex-direction: column;
-    padding-bottom: 30px;
+    padding-bottom: 70px;
+
+    &-information {
+      padding-top: 30px;
+    }
 
     &-sign__form {
       align-self: center;
     }
+  }
+}
+
+@media all and (max-width: 400px) {
+  .offer-information {
+    width: 100%;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  .offer-sign {
+    width: 100%;
+    padding-left: 20px;
+    padding-right: 20px;
   }
 }
 
