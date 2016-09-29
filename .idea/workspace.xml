@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="16ff664c-2e8a-43f9-b6ba-875af83a3338" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/scss/main.css" afterPath="$PROJECT_DIR$/scss/main.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/scss/partial/_contacts.scss" afterPath="$PROJECT_DIR$/scss/partial/_contacts.scss" />
     </list>
@@ -30,8 +29,8 @@
           <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/index.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="542">
-                  <caret line="353" column="190" selection-start-line="353" selection-start-column="190" selection-end-line="353" selection-end-column="190" />
+                <state relative-caret-position="392">
+                  <caret line="340" column="47" selection-start-line="340" selection-start-column="22" selection-end-line="340" selection-end-column="47" />
                   <folding />
                 </state>
               </provider>
@@ -134,9 +133,12 @@
           <file leaf-file-name="_contacts.scss" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/scss/partial/_contacts.scss">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="105">
-                  <caret line="7" column="26" selection-start-line="7" selection-start-column="3" selection-end-line="7" selection-end-column="26" />
-                  <folding />
+                <state relative-caret-position="482">
+                  <caret line="111" column="26" selection-start-line="111" selection-start-column="26" selection-end-line="111" selection-end-column="26" />
+                  <folding>
+                    <marker date="1475154812753" expanded="true" signature="10:2435" ph="{...}" />
+                    <marker date="1475154812753" expanded="true" signature="3089:3244" ph="{...}" />
+                  </folding>
                 </state>
               </provider>
             </entry>
@@ -168,8 +170,8 @@
         <option value="$PROJECT_DIR$/scss/partial/_talk.scss" />
         <option value="$PROJECT_DIR$/scss/partial/_certificate.scss" />
         <option value="$PROJECT_DIR$/scss/main.scss" />
-        <option value="$PROJECT_DIR$/scss/partial/_contacts.scss" />
         <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/scss/partial/_contacts.scss" />
       </list>
     </option>
   </component>
@@ -441,12 +443,12 @@
       <workItem from="1474951791017" duration="4600000" />
       <workItem from="1474994590712" duration="15197000" />
       <workItem from="1475053034073" duration="7023000" />
-      <workItem from="1475141850447" duration="10140000" />
+      <workItem from="1475141850447" duration="11443000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="51328000" />
+    <option name="totallyTimeSpent" value="52631000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -889,17 +891,20 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="542">
-          <caret line="353" column="190" selection-start-line="353" selection-start-column="190" selection-end-line="353" selection-end-column="190" />
+        <state relative-caret-position="392">
+          <caret line="340" column="47" selection-start-line="340" selection-start-column="22" selection-end-line="340" selection-end-column="47" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/scss/partial/_contacts.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="26" selection-start-line="7" selection-start-column="3" selection-end-line="7" selection-end-column="26" />
-          <folding />
+        <state relative-caret-position="482">
+          <caret line="111" column="26" selection-start-line="111" selection-start-column="26" selection-end-line="111" selection-end-column="26" />
+          <folding>
+            <marker date="1475154812753" expanded="true" signature="10:2435" ph="{...}" />
+            <marker date="1475154812753" expanded="true" signature="3089:3244" ph="{...}" />
+          </folding>
         </state>
       </provider>
     </entry>

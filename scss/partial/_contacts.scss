@@ -6,6 +6,10 @@
   &__questions {
     padding: 70px 60px 15px 80px;
     border: 1px solid red;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 427px;
 
     &-title {
       width: 175px;
@@ -19,6 +23,7 @@
     }
 
     &-copyright {
+      display: block;
       font-size: 12px;
       font-family: "Roboto";
       color: rgb(51, 51, 51);
@@ -76,7 +81,6 @@
 
   &__wrapper {
     flex-grow: 1;
-    height: 588px;
     border: 1px solid black;
   }
 
@@ -104,6 +108,10 @@
         margin: 0;
         margin-right: 45px;
 
+        &:last-child {
+          margin-right: 0;
+        }
+
         &-item {
           font-size: 18px;
           font-family: "Roboto";
@@ -116,8 +124,61 @@
   }
 
   &__map {
-    width: 100%;
+    width: calc(100vw - 427px);
     height: 347px;
+  }
+}
+
+@media all and (max-width: 1000px) {
+  .contacts {
+    flex-direction: column-reverse;
+
+    &__questions {
+      padding: 30px 30px 15px 30px;
+      align-items: center;
+      width: 100%;
+
+      &-form {
+        align-items: center;
+        margin-bottom: 30px;
+      }
+
+      &-title,
+      &-text {
+        width: 100%;
+        text-align: center;
+      }
+    }
+
+    &__map {
+      width: 100%;
+    }
+
+    &__address {
+      padding-top: 25px;
+
+      &-title {
+        width: 100%;
+        text-align: center;
+      }
+
+      &-wrapper {
+        width: 100%;
+        justify-content: center;
+      }
+    }
+  }
+}
+
+@media all and ( max-width: 500px )  {
+  .contacts__address-wrapper {
+    flex-direction: column;
+    align-items: center;
+
+    &-list {
+      margin: 0;
+      margin-bottom: 10px;
+    }
   }
 }
 
