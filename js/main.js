@@ -17,28 +17,33 @@ window.onscroll = function() {
   }
 };
 
-function validate(form) {
+function validateOffer(form) {
   var elems = form.elements;
   var offerName = elems.offerName.value;
   var offerTel = elems.offerTel.value;
   var offerCar = elems.offerCar.value;
 
   var allInput = document.getElementsByClassName('offer-sign__form-input_error');
-  for (i=0; i < allInput.length; i++) {
+  for (i=0; i < (allInput.length) ; i++) {
     allInput[i].classList.remove('offer-sign__form-input_error');
+    document.getElementsByClassName("offer-sign__form-error")[0].classList.remove('offer-sign__form-error_active');
   }
 
   if (!offerName) {
+    event.preventDefault();
     document.getElementsByClassName("offer-sign__form-error")[0].classList.add('offer-sign__form-error_active');
     elems.offerName.classList.add('offer-sign__form-input_error');
+
   }
 
   if (!offerTel) {
+    event.preventDefault();
     document.getElementsByClassName("offer-sign__form-error")[0].classList.add('offer-sign__form-error_active');
     elems.offerTel.classList.add('offer-sign__form-input_error');
   }
 
   if (!offerCar) {
+    event.preventDefault();
     document.getElementsByClassName("offer-sign__form-error")[0].classList.add('offer-sign__form-error_active');
     elems.offerCar.classList.add('offer-sign__form-input_error');
   }
