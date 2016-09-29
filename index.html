@@ -226,7 +226,7 @@
       </div>
       <div class="insulation__more">
         <h2 class="insulation__more-title">Хотите узнать больше?</h2>
-        <a href="/" class="insulation__more-link">ДА, ХОЧУ</a>
+        <a href="#insulation" class="insulation__more-link">ДА, ХОЧУ</a>
       </div>
     </section>
 
@@ -365,9 +365,24 @@
     </section>
 
     <div class="remodal" data-remodal-id="modal" role="dialog" aria-labelledby="modal1Title" aria-describedby="modal1Desc">
-      <form id="form" action="mail.php" method="post" class="modalForm">
+      <form id="form" action="corrosion.php" method="post" class="modalForm">
         <h2 class="modalForm__title">Я хочу заказать услугу</h2>
         <span class="modalForm__text">Антикоррозийная обработка</span>
+        <label class="modalForm-label">Как вас зовут <br>
+          <input type="text" name="name" class="modalForm-input" required>
+        </label>
+        <label class="modalForm-label">Ваш телефон <br>
+          <input type="text" name="phone" class="modalForm-input" required>
+        </label>
+        <input type="submit" class="modalForm-submit" value="Заказать услугу">
+        <span class="modalForm__bottom">Наш менеджер свяжется с вами в течение 10 минут</span>
+      </form>
+    </div>
+
+    <div class="remodal" data-remodal-id="insulation" role="dialog" aria-labelledby="modal1Title" aria-describedby="modal1Desc">
+      <form id="form" action="insulation.php" method="post" class="modalForm">
+        <h2 class="modalForm__title">Я хочу заказать услугу</h2>
+        <span class="modalForm__text">Шумоизоляция</span>
         <label class="modalForm-label">Как вас зовут <br>
           <input type="text" name="name" class="modalForm-input" required>
         </label>
