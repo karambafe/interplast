@@ -148,7 +148,7 @@
           <div class="advantages__item-container">
             <img src="img/advantages/Shape-8.png" class="advantages__item-image" alt="">
           </div>
-          <span class="advantages__item-description">Бесплатный осмотр каждый 12 месяцев</span>
+          <span class="advantages__item-description">Бесплатный осмотр каждые 12 месяцев</span>
         </div>
         <div class="advantages__item advantages__item-9">
           <div class="advantages__item-container">
@@ -160,7 +160,7 @@
           <div class="advantages__item-container">
             <img src="img/advantages/Shape-10.png" class="advantages__item-image" alt="">
           </div>
-          <span class="advantages__item-description">Защита авто в труднодоступных местах с помощью приборов нового </span>
+          <span class="advantages__item-description">Защита авто в труднодоступных местах с помощью приборов нового поколения</span>
         </div>
         <div class="advantages__item advantages__item-11">
           <div class="advantages__item-container">
@@ -368,31 +368,33 @@
     </section>
 
     <div class="remodal" data-remodal-id="modal" role="dialog" aria-labelledby="modal1Title" aria-describedby="modal1Desc">
-      <form id="form" action="corrosion.php" method="post" class="modalForm">
+      <form id="form1" action="corrosion.php" method="post" class="modalForm">
         <h2 class="modalForm__title">Я хочу заказать услугу</h2>
         <span class="modalForm__text">Антикоррозийная обработка</span>
         <label class="modalForm-label">Как вас зовут <br>
-          <input type="text" name="name" class="modalForm-input" required>
+          <input type="text" name="name" class="modalForm-input">
         </label>
         <label class="modalForm-label">Ваш телефон <br>
-          <input type="text" name="phone" class="modalForm-input" required>
+          <input type="text" name="phone" class="modalForm-input">
         </label>
-        <input type="submit" class="modalForm-submit" value="Заказать услугу">
+        <input type="submit" class="modalForm-submit" onclick="validateModal(this.form)" value="Заказать услугу">
+        <span class="modalForm-error">Заполните все поля!</span>
         <span class="modalForm__bottom">Наш менеджер свяжется с вами в течение 10 минут</span>
       </form>
     </div>
 
     <div class="remodal" data-remodal-id="insulation" role="dialog" aria-labelledby="modal1Title" aria-describedby="modal1Desc">
-      <form id="form" action="insulation.php" method="post" class="modalForm">
+      <form id="form2" action="insulation.php" method="post" class="modalForm">
         <h2 class="modalForm__title">Я хочу заказать услугу</h2>
         <span class="modalForm__text">Шумоизоляция</span>
         <label class="modalForm-label">Как вас зовут <br>
-          <input type="text" name="name" class="modalForm-input" required>
+          <input type="text" name="name" class="modalForm-input">
         </label>
         <label class="modalForm-label">Ваш телефон <br>
-          <input type="text" name="phone" class="modalForm-input" required>
+          <input type="text" name="phone" class="modalForm-input">
         </label>
-        <input type="submit" class="modalForm-submit" value="Заказать услугу">
+        <input type="submit" class="modalForm-submit" onclick="validateModal(this.form)"  value="Заказать услугу">
+        <span class="modalForm-error">Заполните все поля!</span>
         <span class="modalForm__bottom">Наш менеджер свяжется с вами в течение 10 минут</span>
       </form>
     </div>

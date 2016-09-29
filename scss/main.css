@@ -1796,7 +1796,10 @@ textarea {
     font-size: 16px;
     font-family: "Roboto";
     color: #405fa8;
-    line-height: 1.375; }
+    line-height: 1.375;
+    border: 1px solid #e3e7f2; }
+    .modalForm-input_error {
+      border: 1px solid red; }
   .modalForm-submit {
     width: 260px;
     height: 45px;
@@ -1821,3 +1824,12 @@ textarea {
     color: #333333;
     line-height: 1.2;
     text-align: center; }
+  .modalForm-error {
+    display: none; }
+    .modalForm-error_active {
+      margin-top: 8px;
+      display: block;
+      width: 100%;
+      text-align: center;
+      font-size: 14px;
+      color: red; }

@@ -82,3 +82,29 @@ function validateContasts(form) {
     elems.contactsPhone.classList.add('contacts__questions-form-input_error');
   }
 }
+
+
+function validateModal(form) {
+  var elems = form.elements;
+  var name = elems.name.value;
+  var phone = elems.phone.value;
+
+  var allInput = document.getElementsByClassName('modalForm-input_error');
+  for (i=0; i < (allInput.length) ; i++) {
+    allInput[i].classList.remove('modalForm-input_error');
+    document.getElementsByClassName("modalForm-error")[0].classList.remove('modalForm-error_active');
+  }
+
+  if (!name) {
+    event.preventDefault();
+    document.getElementsByClassName("modalForm-error")[0].classList.add('modalForm-error_active');
+    elems.name.classList.add('modalForm-input_error');
+
+  }
+
+  if (!phone) {
+    event.preventDefault();
+    document.getElementsByClassName("modalForm-error")[0].classList.add('modalForm-error_active');
+    elems.phone.classList.add('modalForm-input_error');
+  }
+}
