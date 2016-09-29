@@ -23,9 +23,11 @@ function validateOffer(form) {
   var offerTel = elems.offerTel.value;
   var offerCar = elems.offerCar.value;
 
-  var allInput = document.getElementsByClassName('offer-sign__form-input_error');
+  var allInput = document.getElementsByClassName('offer-sign__form-input');
   for (i=0; i < (allInput.length) ; i++) {
-    allInput[i].classList.remove('offer-sign__form-input_error');
+    if (allInput[i].classList.contains('offer-sign__form-input_error')) {
+      allInput[i].classList.remove('offer-sign__form-input_error');
+    }
     document.getElementsByClassName("offer-sign__form-error")[0].classList.remove('offer-sign__form-error_active');
   }
 
@@ -54,15 +56,19 @@ function validateContasts(form) {
   var contactsName = elems.contactsName.value;
   var contactsPhone = elems.contactsPhone.value;
 
-  var howWork = document.getElementsByClassName('how-work__form-input_error');
+  var howWork = document.getElementsByClassName('how-work__form-input');
   for (i=0; i < (howWork.length) ; i++) {
-    howWork[i].classList.remove('how-work__form-input_error');
+    if (howWork[i].classList.contains('how-work__form-input_error')) {
+      howWork[i].classList.remove('how-work__form-input_error');
+    }
     document.getElementsByClassName("how-work__form-error")[0].classList.remove('how-work__form-error_active');
   }
 
-  var contacts = document.getElementsByClassName('contacts__questions-form-input_error');
+  var contacts = document.getElementsByClassName('contacts__questions-form-input');
   for (i=0; i < (contacts.length) ; i++) {
-    contacts[i].classList.remove('contacts__questions-form-input_error');
+    if (contacts[i].classList.contains('contacts__questions-form-input_error')) {
+      contacts[i].classList.remove('contacts__questions-form-input_error');
+    }
     document.getElementsByClassName("contacts__questions-form-error")[0].classList.remove('contacts__questions-form_active');
   }
 
@@ -89,9 +95,11 @@ function validateModal(form) {
   var name = elems.name.value;
   var phone = elems.phone.value;
 
-  var allInput = document.getElementsByClassName('modalForm-input_error');
+  var allInput = document.getElementsByClassName('modalForm-input');
   for (i=0; i < (allInput.length) ; i++) {
-    allInput[i].classList.remove('modalForm-input_error');
+    if (allInput[i].classList.contains('modalForm-input_error')) {
+      allInput[i].classList.remove('modalForm-input_error');
+    }
     document.getElementsByClassName("modalForm-error")[0].classList.remove('modalForm-error_active');
   }
 

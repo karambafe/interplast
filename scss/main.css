@@ -584,7 +584,9 @@ textarea {
         color: #405fa8;
         line-height: 1.375; }
         .offer-sign__form-input_error {
-          border: 1px solid red; }
+          border: 1px solid red;
+          -webkit-transition: border-color 0.3s ease-out;
+                  transition: border-color 0.3s ease-out; }
       .offer-sign__form-submit {
         width: 260px;
         height: 40px;
@@ -604,6 +606,8 @@ textarea {
         display: none; }
         .offer-sign__form-error_active {
           display: block;
+          width: 100%;
+          text-align: center;
           font-size: 14px;
           color: red; }
 
@@ -1303,7 +1307,9 @@ textarea {
       padding: 0 10px;
       border: 1px solid #e3e7f2; }
       .how-work__form-input_error {
-        border: 1px solid red; }
+        border: 1px solid red;
+        -webkit-transition: border-color 0.3s ease-out;
+                transition: border-color 0.3s ease-out; }
     .how-work__form-submit {
       -webkit-align-self: flex-end;
           -ms-flex-item-align: end;
@@ -1655,7 +1661,9 @@ textarea {
         line-height: 1.375;
         border: 1px solid #e3e7f2; }
         .contacts__questions-form-input_error {
-          border: 1px solid red; }
+          border: 1px solid red;
+          -webkit-transition: border-color 0.3s ease-out;
+                  transition: border-color 0.3s ease-out; }
       .contacts__questions-form-submit {
         width: 260px;
         height: 45px;
@@ -1820,7 +1828,9 @@ textarea {
     line-height: 1.375;
     border: 1px solid #e3e7f2; }
     .modalForm-input_error {
-      border: 1px solid red; }
+      border: 1px solid red;
+      -webkit-transition: border-color 0.3s ease-out;
+              transition: border-color 0.3s ease-out; }
   .modalForm-submit {
     width: 260px;
     height: 45px;

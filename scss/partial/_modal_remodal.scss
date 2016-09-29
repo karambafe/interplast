@@ -47,6 +47,7 @@
 
     &_error {
       border: 1px solid red;
+      transition: border-color 0.3s ease-out;
     }
   }
 

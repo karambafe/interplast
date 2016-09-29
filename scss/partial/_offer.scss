@@ -110,6 +110,7 @@
 
         &_error {
           border: 1px solid red;
+          transition: border-color 0.3s ease-out;
         }
       }
 
@@ -136,6 +137,8 @@
 
         &_active {
           display: block;
+          width: 100%;
+          text-align: center;
           font-size: 14px;
           color: red;
         }
