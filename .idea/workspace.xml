@@ -2,13 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="16ff664c-2e8a-43f9-b6ba-875af83a3338" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/normalize.css" afterPath="$PROJECT_DIR$/css/normalize.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/main.js" afterPath="$PROJECT_DIR$/js/main.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/scss/main.css" afterPath="$PROJECT_DIR$/scss/main.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/scss/partial/_contacts.scss" afterPath="$PROJECT_DIR$/scss/partial/_contacts.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/scss/partial/_how-work.scss" afterPath="$PROJECT_DIR$/scss/partial/_how-work.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/scss/partial/_modal_remodal.scss" afterPath="$PROJECT_DIR$/scss/partial/_modal_remodal.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/scss/partial/_offer.scss" afterPath="$PROJECT_DIR$/scss/partial/_offer.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/scss/partial/_advantages.scss" afterPath="$PROJECT_DIR$/scss/partial/_advantages.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/scss/partial/_help.scss" afterPath="$PROJECT_DIR$/scss/partial/_help.scss" />
     </list>
     <ignored path="interplast.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -43,11 +39,31 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="main.js" pinned="false" current-in-tab="true">
+          <file leaf-file-name="_advantages.scss" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/scss/partial/_advantages.scss">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="571">
+                  <caret line="104" column="0" selection-start-line="104" selection-start-column="0" selection-end-line="104" selection-end-column="0" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="main.js" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/js/main.js">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="371">
                   <caret line="60" column="65" selection-start-line="60" selection-start-column="65" selection-end-line="60" selection-end-column="65" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="_help.scss" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/scss/partial/_help.scss">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="676">
+                  <caret line="183" column="0" selection-start-line="183" selection-start-column="0" selection-end-line="183" selection-end-column="0" />
                   <folding />
                 </state>
               </provider>
@@ -96,7 +112,6 @@
         <option value="$PROJECT_DIR$/scss/partial/_talk.scss" />
         <option value="$PROJECT_DIR$/scss/partial/_insulation.scss" />
         <option value="$PROJECT_DIR$/scss/partial/_header.scss" />
-        <option value="$PROJECT_DIR$/scss/partial/_help.scss" />
         <option value="$PROJECT_DIR$/scss/partial/_certificate.scss" />
         <option value="$PROJECT_DIR$/form.php" />
         <option value="$PROJECT_DIR$/success/index.css" />
@@ -116,6 +131,8 @@
         <option value="$PROJECT_DIR$/scss/partial/_modal_remodal.scss" />
         <option value="$PROJECT_DIR$/scss/partial/_offer.scss" />
         <option value="$PROJECT_DIR$/js/main.js" />
+        <option value="$PROJECT_DIR$/scss/partial/_help.scss" />
+        <option value="$PROJECT_DIR$/scss/partial/_advantages.scss" />
       </list>
     </option>
   </component>
@@ -415,12 +432,12 @@
       <workItem from="1474951791017" duration="4600000" />
       <workItem from="1474994590712" duration="15197000" />
       <workItem from="1475053034073" duration="7023000" />
-      <workItem from="1475141850447" duration="35517000" />
+      <workItem from="1475141850447" duration="35832000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="76705000" />
+    <option name="totallyTimeSpent" value="77020000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -732,14 +749,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/scss/partial/_help.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="79" column="19" selection-start-line="79" selection-start-column="19" selection-end-line="79" selection-end-column="19" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/modal/mail.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="405">
@@ -784,14 +793,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="435">
           <caret line="29" column="0" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/scss/partial/_advantages.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="376">
-          <caret line="72" column="5" selection-start-line="72" selection-start-column="5" selection-end-line="72" selection-end-column="5" />
           <folding />
         </state>
       </provider>
@@ -880,6 +881,22 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="371">
           <caret line="60" column="65" selection-start-line="60" selection-start-column="65" selection-end-line="60" selection-end-column="65" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scss/partial/_help.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="676">
+          <caret line="183" column="0" selection-start-line="183" selection-start-column="0" selection-end-line="183" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scss/partial/_advantages.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="571">
+          <caret line="104" column="0" selection-start-line="104" selection-start-column="0" selection-end-line="104" selection-end-column="0" />
           <folding />
         </state>
       </provider>

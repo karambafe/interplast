@@ -872,11 +872,7 @@ textarea {
 
 @media all and (min-width: 1500px) {
   .advantages__item {
-    margin: 0 70px;
-    margin-bottom: 70px; } }
-@media all and (min-width: 1800px) {
-  .advantages__item {
-    margin: 0 100px;
+    margin: 0 4vw;
     margin-bottom: 70px; } }
 @media all and (max-width: 1320px) {
   .advantages__item {
@@ -1079,11 +1075,7 @@ textarea {
 
 @media all and (min-width: 1500px) {
   .help__item {
-    margin: 0 70px;
-    margin-bottom: 50px; } }
-@media all and (min-width: 1800px) {
-  .help__item {
-    margin: 0 120px;
+    margin: 0 7vw;
     margin-bottom: 50px; } }
 @media all and (max-width: 1160px) {
   .help__item {
