@@ -445,7 +445,8 @@ textarea {
           align-items: center;
   width: 100%;
   height: 590px;
-  background: #000; }
+  background: url("../img/offer/background.jpg") no-repeat center;
+  background-size: cover; }
   .offer-information {
     width: 360px;
     height: 100%;
@@ -1008,7 +1009,8 @@ textarea {
   -webkit-align-items: center;
       -ms-flex-align: center;
           align-items: center;
-  background: #2d4275;
+  background: url("../img/insulation/background.jpg") no-repeat center;
+  background-size: cover;
   padding: 40px 0; }
   .insulation__description {
     width: 404px; }
@@ -1379,7 +1381,7 @@ textarea {
           align-items: center;
   width: 100%;
   height: 300px;
-  background: url("../img/certificate/background-min.png") no-repeat;
+  background: url("../img/certificate/background.jpg") no-repeat center;
   background-size: cover; }
   .certificate__dinitrol {
     display: block; }

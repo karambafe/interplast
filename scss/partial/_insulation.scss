@@ -5,7 +5,8 @@
   flex-wrap: wrap;
   justify-content: space-around;
   align-items: center;
-  background: #2d4275;
+  background: url("../img/insulation/background.jpg") no-repeat center;
+  background-size: cover;
   padding: 40px 0;
 
   &__description {

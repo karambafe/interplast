@@ -2,8 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="16ff664c-2e8a-43f9-b6ba-875af83a3338" name="Default" comment="">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/img/certificate/background.png" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/scss/main.css" afterPath="$PROJECT_DIR$/scss/main.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/scss/partial/_contacts.scss" afterPath="$PROJECT_DIR$/scss/partial/_contacts.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/scss/partial/_certificate.scss" afterPath="$PROJECT_DIR$/scss/partial/_certificate.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/scss/partial/_insulation.scss" afterPath="$PROJECT_DIR$/scss/partial/_insulation.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/scss/partial/_offer.scss" afterPath="$PROJECT_DIR$/scss/partial/_offer.scss" />
     </list>
     <ignored path="interplast.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -29,7 +32,7 @@
           <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/index.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="392">
+                <state relative-caret-position="5010">
                   <caret line="340" column="47" selection-start-line="340" selection-start-column="22" selection-end-line="340" selection-end-column="47" />
                   <folding />
                 </state>
@@ -41,16 +44,6 @@
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="390">
                   <caret line="56" column="14" selection-start-line="54" selection-start-column="4" selection-end-line="56" selection-end-column="14" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="_offer.scss" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/scss/partial/_offer.scss">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="1680">
-                  <caret line="112" column="25" selection-start-line="112" selection-start-column="25" selection-end-line="112" selection-end-column="25" />
                   <folding />
                 </state>
               </provider>
@@ -93,8 +86,18 @@
           <file leaf-file-name="_how-work.scss" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/scss/partial/_how-work.scss">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="1111">
-                  <caret line="131" column="3" selection-start-line="98" selection-start-column="2" selection-end-line="131" selection-end-column="3" />
+                <state relative-caret-position="376">
+                  <caret line="82" column="26" selection-start-line="82" selection-start-column="26" selection-end-line="82" selection-end-column="26" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="_insulation.scss" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/scss/partial/_insulation.scss">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="210">
+                  <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
                   <folding />
                 </state>
               </provider>
@@ -123,22 +126,29 @@
           <file leaf-file-name="_certificate.scss" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/scss/partial/_certificate.scss">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="511">
-                  <caret line="62" column="30" selection-start-line="62" selection-start-column="30" selection-end-line="62" selection-end-column="30" />
+                <state relative-caret-position="105">
+                  <caret line="7" column="25" selection-start-line="6" selection-start-column="2" selection-end-line="7" selection-end-column="25" />
                   <folding />
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="_contacts.scss" pinned="false" current-in-tab="true">
+          <file leaf-file-name="_contacts.scss" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/scss/partial/_contacts.scss">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="482">
                   <caret line="111" column="26" selection-start-line="111" selection-start-column="26" selection-end-line="111" selection-end-column="26" />
-                  <folding>
-                    <marker date="1475154812753" expanded="true" signature="10:2435" ph="{...}" />
-                    <marker date="1475154812753" expanded="true" signature="3089:3244" ph="{...}" />
-                  </folding>
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="_offer.scss" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/scss/partial/_offer.scss">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="90">
+                  <caret line="6" column="46" selection-start-line="6" selection-start-column="32" selection-end-line="6" selection-end-column="46" />
+                  <folding />
                 </state>
               </provider>
             </entry>
@@ -159,19 +169,19 @@
         <option value="$PROJECT_DIR$/scss/partial/_header.scss" />
         <option value="$PROJECT_DIR$/js/main.js" />
         <option value="$PROJECT_DIR$/scss/partial/_navbar.scss" />
-        <option value="$PROJECT_DIR$/scss/partial/_offer.scss" />
         <option value="$PROJECT_DIR$/scss/partial/key-advantage.scss" />
         <option value="$PROJECT_DIR$/scss/partial/advantages.scss" />
         <option value="$PROJECT_DIR$/scss/partial/_key-advantage.scss" />
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/scss/partial/_help.scss" />
-        <option value="$PROJECT_DIR$/scss/partial/_insulation.scss" />
         <option value="$PROJECT_DIR$/scss/partial/_how-work.scss" />
         <option value="$PROJECT_DIR$/scss/partial/_talk.scss" />
-        <option value="$PROJECT_DIR$/scss/partial/_certificate.scss" />
         <option value="$PROJECT_DIR$/scss/main.scss" />
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/scss/partial/_contacts.scss" />
+        <option value="$PROJECT_DIR$/scss/partial/_insulation.scss" />
+        <option value="$PROJECT_DIR$/scss/partial/_certificate.scss" />
+        <option value="$PROJECT_DIR$/scss/partial/_offer.scss" />
       </list>
     </option>
   </component>
@@ -443,12 +453,12 @@
       <workItem from="1474951791017" duration="4600000" />
       <workItem from="1474994590712" duration="15197000" />
       <workItem from="1475053034073" duration="7023000" />
-      <workItem from="1475141850447" duration="11443000" />
+      <workItem from="1475141850447" duration="12369000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="52631000" />
+    <option name="totallyTimeSpent" value="53557000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -585,6 +595,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -826,25 +837,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/scss/partial/_insulation.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="736">
-          <caret line="101" column="22" selection-start-line="101" selection-start-column="22" selection-end-line="101" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/scss/partial/advantages.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1635">
           <caret line="109" column="1" selection-start-line="109" selection-start-column="1" selection-end-line="109" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/scss/partial/_offer.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1680">
-          <caret line="112" column="25" selection-start-line="112" selection-start-column="25" selection-end-line="112" selection-end-column="25" />
           <folding />
         </state>
       </provider>
@@ -857,26 +853,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/scss/partial/_certificate.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="511">
-          <caret line="62" column="30" selection-start-line="62" selection-start-column="30" selection-end-line="62" selection-end-column="30" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/scss/main.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="225">
           <caret line="15" column="25" selection-start-line="15" selection-start-column="25" selection-end-line="15" selection-end-column="25" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/scss/partial/_how-work.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1111">
-          <caret line="131" column="3" selection-start-line="98" selection-start-column="2" selection-end-line="131" selection-end-column="3" />
           <folding />
         </state>
       </provider>
@@ -889,22 +869,51 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/scss/partial/_contacts.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="482">
+          <caret line="111" column="26" selection-start-line="111" selection-start-column="26" selection-end-line="111" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scss/partial/_how-work.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="376">
+          <caret line="82" column="26" selection-start-line="82" selection-start-column="26" selection-end-line="82" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scss/partial/_insulation.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="392">
+        <state relative-caret-position="5010">
           <caret line="340" column="47" selection-start-line="340" selection-start-column="22" selection-end-line="340" selection-end-column="47" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/scss/partial/_contacts.scss">
+    <entry file="file://$PROJECT_DIR$/scss/partial/_certificate.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="482">
-          <caret line="111" column="26" selection-start-line="111" selection-start-column="26" selection-end-line="111" selection-end-column="26" />
-          <folding>
-            <marker date="1475154812753" expanded="true" signature="10:2435" ph="{...}" />
-            <marker date="1475154812753" expanded="true" signature="3089:3244" ph="{...}" />
-          </folding>
+        <state relative-caret-position="105">
+          <caret line="7" column="25" selection-start-line="6" selection-start-column="2" selection-end-line="7" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scss/partial/_offer.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="46" selection-start-line="6" selection-start-column="32" selection-end-line="6" selection-end-column="46" />
+          <folding />
         </state>
       </provider>
     </entry>
