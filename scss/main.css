@@ -1256,7 +1256,14 @@ textarea {
     display: -webkit-box;
     display: -webkit-flex;
     display: -ms-flexbox;
-    display: flex; }
+    display: flex;
+    -webkit-justify-content: space-around;
+        -ms-flex-pack: distribute;
+            justify-content: space-around;
+    width: 100%;
+    -webkit-flex-wrap: wrap;
+        -ms-flex-wrap: wrap;
+            flex-wrap: wrap; }
   .talk__item {
     display: -webkit-box;
     display: -webkit-flex;
@@ -1267,17 +1274,14 @@ textarea {
     -webkit-flex-direction: column;
         -ms-flex-direction: column;
             flex-direction: column;
-    -webkit-box-align: start;
-    -webkit-align-items: flex-start;
-        -ms-flex-align: start;
-            align-items: flex-start;
-    width: 250px; }
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+        -ms-flex-align: center;
+            align-items: center;
+    width: 270px; }
     .talk__item-image {
       width: 230px;
       height: 130px;
-      -webkit-align-self: flex-end;
-          -ms-flex-item-align: end;
-              align-self: flex-end;
       margin-bottom: 20px; }
       .talk__item-image-1 {
         background: url("../img/talk/talk-1.png") no-repeat;
@@ -1292,6 +1296,9 @@ textarea {
         background: url("../img/talk/talk-4.png") no-repeat;
         background-size: cover; }
     .talk__item-name {
+      -webkit-align-self: flex-start;
+          -ms-flex-item-align: start;
+              align-self: flex-start;
       display: block;
       padding-left: 20px;
       margin-bottom: 10px;
@@ -1300,6 +1307,9 @@ textarea {
       color: #333333;
       line-height: 0.917; }
     .talk__item-car {
+      -webkit-align-self: flex-start;
+          -ms-flex-item-align: start;
+              align-self: flex-start;
       display: block;
       padding-left: 20px;
       font-size: 18px;
@@ -1308,18 +1318,39 @@ textarea {
       font-weight: bold;
       text-transform: uppercase;
       line-height: 1.222; }
-    .talk__item-text {
-      padding-left: 20px;
-      font-size: 14px;
-      font-family: "Roboto";
-      color: #333333;
-      font-style: italic;
-      line-height: 1.571; }
-      .talk__item-text::before {
-        content: "<<";
-        font-size: 28px;
-        color: #405fa8; }
-      .talk__item-text::after {
-        content: ">>";
-        font-size: 28px;
-        color: #405fa8; }
+    .talk__item-wrapper {
+      position: relative;
+      display: -webkit-box;
+      display: -webkit-flex;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-pack: center;
+      -webkit-justify-content: center;
+          -ms-flex-pack: center;
+              justify-content: center;
+      width: 270px;
+      margin-top: 30px; }
+      .talk__item-wrapper-text {
+        display: block;
+        width: 230px;
+        font-size: 14px;
+        font-family: "Roboto";
+        color: #333333;
+        font-style: italic;
+        line-height: 1.571; }
+      .talk__item-wrapper-before {
+        position: absolute;
+        top: 2px;
+        left: -2px;
+        display: block;
+        width: 18px;
+        height: 18px;
+        background: url("../img/talk/open-quote.png") no-repeat; }
+      .talk__item-wrapper-after {
+        position: absolute;
+        bottom: 2px;
+        right: -2px;
+        display: block;
+        width: 18px;
+        height: 18px;
+        background: url("../img/talk/close-qoute.png") no-repeat; }
