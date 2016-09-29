@@ -1,9 +1,8 @@
 <?php
 $success_url = './success';
 
-$name = htmlspecialchars($_POST["offer-name"]);
-$phone = htmlspecialchars($_POST["offer-tel"]);
-$car = htmlspecialchars($_POST["offer-car"]);
+$name = htmlspecialchars($_POST["contacts-name"]);
+$phone = htmlspecialchars($_POST["contacts-phone"]);
 
   // от кого
 		$fromMail = 'Interplast@yandex.ru';
@@ -13,7 +12,7 @@ $address = "karambafe@yahoo.com";
 $headers = "Content-type: text/plain; charset=\"utf-8\"\r\n";
 $headers .= "From: ". $fromName ." <". $fromMail ."> \r\n";
 /* А здесь прописывается текст сообщения, \n - перенос строки */
-$mes = "Тема: Заявка на сайте!"."\nИмя: ".$name ."\nТелефон: ".$phone ."\nМашина: ".$car;
+$mes = "Тема: Заявка на сайте!"."\nИмя: ".$name ."\nТелефон: ".$phone;
 // $mes = $type;
 
 /* А эта функция как раз занимается отправкой письма на указанный вами email */

@@ -55,10 +55,10 @@
         <span class="offer-sign__description">Заполните форму ниже и получите диагностику в труднодоступных местах эндоскопом в подарок</span>
         <form class="offer-sign__form" action="offer.php" method="post">
           <label class="offer-sign__form-label">Как вас зовут
-            <input type="text" name="offer-name" class="offer-sign__form-input">
+            <input type="text" name="offer-name" class="offer-sign__form-input" required>
           </label>
           <label class="offer-sign__form-label">Ваш телефон
-            <input type="text" name="offer-tel" class="offer-sign__form-input">
+            <input type="text" name="offer-tel" class="offer-sign__form-input" required>
           </label>
           <label class="offer-sign__form-label">Какой у Вас автомобиль
             <input type="text" name="offer-car" class="offer-sign__form-input">
@@ -252,12 +252,12 @@
       </div>
       <h3 class="how-work__questions">У вас остались вопросы?</h3>
       <span class="how-work__questions-text">Оставьте заявку на бесплатную консультацию</span>
-      <form class="how-work__form">
+      <form class="how-work__form" action="contacts.php" method="post">
         <label class="how-work__form-label">Как вас зовут <br>
-          <input type="text" class="how-work__form-input">
+          <input type="text" name="contacts-name"  class="how-work__form-input">
         </label>
         <label class="how-work__form-label">Ваш телефон <br>
-          <input type="text" class="how-work__form-input">
+          <input type="text" name="contacts-phone" class="how-work__form-input">
         </label>
         <input type="submit" class="how-work__form-submit" value="Получить консультацию">
       </form>
@@ -326,12 +326,12 @@
       <div class="contacts__questions">
         <h2 class="contacts__questions-title">У вас остались  вопросы?</h2>
         <span class="contacts__questions-text">Оставьте заявку на бесплатную консультацию</span>
-        <form class="contacts__questions-form">
+        <form class="contacts__questions-form" action="contacts.php" method="post">
           <label class="contacts__questions-form-label">Как вас зовут <br>
-            <input type="text" class="contacts__questions-form-input">
+            <input type="text" name="contacts-name" class="contacts__questions-form-input">
           </label>
           <label class="contacts__questions-form-label">Ваш телефон <br>
-            <input type="text" class="contacts__questions-form-input">
+            <input type="text" name="contacts-phone" class="contacts__questions-form-input">
           </label>
           <input type="submit" class="contacts__questions-form-submit" value="Получить консультацию">
         </form>
@@ -366,13 +366,8 @@
 
     <div class="remodal" data-remodal-id="modal" role="dialog" aria-labelledby="modal1Title" aria-describedby="modal1Desc">
       <form id="form" method="post" class="modalForm">
-        <!--<h2 id="modal1Title" class="text-for-form">Оставьте ваши контактные данные. Наш консультант свяжется <br>с вами</h2>-->
-        <!--<input type="text" id='putName' class="putName" name="name" placeholder="Ваше ваше имя" required>-->
-        <!--<input name="phone" type="tel" id="putPhone" class="putPhone" placeholder="Телефон в виде 8-XXX-XXXXXXX" pattern="\8\-[0-9]{3}\-[0-9]{7}" required>-->
-        <!--<input id="btn_form_sbm" type="submit" name="submit" class="btn_form" value="ОТПРАВИТЬ">-->
-        <!--<input type="hidden" name="formData" value="Заявка с сайта">-->
         <h2 class="modalForm__title">Я хочу заказать услугу</h2>
-        <span class="modalForm__text">Шумоизоляции</span>
+        <span class="modalForm__text">Антикоррозийная обрабтка</span>
         <label class="modalForm-label">Как вас зовут <br>
           <input type="text" class="modalForm-input" required>
         </label>
