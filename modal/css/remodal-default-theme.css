@@ -335,6 +335,11 @@
   .remodal {
     max-width: 310px;
   }
+
+  .remodal-cert {
+    max-width: 730px;
+    max-height: 1000px;
+  }
 }
 
 @media only screen and (max-width: 439px) {

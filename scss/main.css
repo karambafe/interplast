@@ -1856,3 +1856,23 @@ textarea {
       text-align: center;
       font-size: 14px;
       color: red; }
+
+.modalCertificate {
+  margin: 0 auto;
+  width: 730px;
+  height: 1000px;
+  background: url("../img/certificate/Sertifikat_Interplast.png") no-repeat;
+  background-size: cover; }
+
+@media all and (max-width: 800px) {
+  .modalCertificate {
+    width: 430px;
+    height: 700px;
+    background: url("../img/certificate/Sertifikat_Interplast.png") no-repeat;
+    background-size: contain; } }
+@media all and (max-width: 500px) {
+  .modalCertificate {
+    width: 300px;
+    height: 500px;
+    background: url("../img/certificate/Sertifikat_Interplast.png") no-repeat;
+    background-size: contain; } }
