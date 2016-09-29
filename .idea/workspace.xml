@@ -3,8 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="16ff664c-2e8a-43f9-b6ba-875af83a3338" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/offer.php" afterPath="$PROJECT_DIR$/offer.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/success/index.html" afterPath="$PROJECT_DIR$/success/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/modal/mail.php" afterPath="$PROJECT_DIR$/modal/mail.php" />
     </list>
     <ignored path="interplast.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -32,8 +31,8 @@
           <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/index.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="333">
-                  <caret line="259" column="80" selection-start-line="259" selection-start-column="80" selection-end-line="259" selection-end-column="80" />
+                <state relative-caret-position="453">
+                  <caret line="369" column="63" selection-start-line="369" selection-start-column="63" selection-end-line="369" selection-end-column="63" />
                   <folding />
                 </state>
               </provider>
@@ -93,11 +92,21 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="offer.php" pinned="false" current-in-tab="true">
+          <file leaf-file-name="offer.php" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/offer.php">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="165">
-                  <caret line="11" column="31" selection-start-line="11" selection-start-column="31" selection-end-line="11" selection-end-column="31" />
+                <state relative-caret-position="405">
+                  <caret line="27" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="mail.php" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/modal/mail.php">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="15">
+                  <caret line="1" column="27" selection-start-line="1" selection-start-column="27" selection-end-line="1" selection-end-column="27" />
                   <folding />
                 </state>
               </provider>
@@ -137,6 +146,7 @@
         <option value="$PROJECT_DIR$/scss/partial/_modal_remodal.scss" />
         <option value="$PROJECT_DIR$/offer.php" />
         <option value="$PROJECT_DIR$/success/index.html" />
+        <option value="$PROJECT_DIR$/modal/mail.php" />
         <option value="$PROJECT_DIR$/index.html" />
       </list>
     </option>
@@ -209,6 +219,20 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="success" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="interplast" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="interplast" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="modal" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -377,12 +401,12 @@
       <workItem from="1474951791017" duration="4600000" />
       <workItem from="1474994590712" duration="15197000" />
       <workItem from="1475053034073" duration="7023000" />
-      <workItem from="1475141850447" duration="23109000" />
+      <workItem from="1475141850447" duration="23686000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="64297000" />
+    <option name="totallyTimeSpent" value="64874000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -445,14 +469,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/scss/partial/_key-advantage.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1140">
-          <caret line="76" column="0" selection-start-line="76" selection-start-column="0" selection-end-line="92" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/scss/partial/_advantages.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1845">
@@ -814,14 +830,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/offer.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="31" selection-start-line="11" selection-start-column="31" selection-end-line="11" selection-end-column="31" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/success/index.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="720">
@@ -838,10 +846,26 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/offer.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="27" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modal/mail.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="27" selection-start-line="1" selection-start-column="27" selection-end-line="1" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="333">
-          <caret line="259" column="80" selection-start-line="259" selection-start-column="80" selection-end-line="259" selection-end-column="80" />
+        <state relative-caret-position="453">
+          <caret line="369" column="63" selection-start-line="369" selection-start-column="63" selection-end-line="369" selection-end-column="63" />
           <folding />
         </state>
       </provider>

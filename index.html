@@ -365,14 +365,14 @@
     </section>
 
     <div class="remodal" data-remodal-id="modal" role="dialog" aria-labelledby="modal1Title" aria-describedby="modal1Desc">
-      <form id="form" method="post" class="modalForm">
+      <form id="form" action="mail.php" method="post" class="modalForm">
         <h2 class="modalForm__title">Я хочу заказать услугу</h2>
-        <span class="modalForm__text">Антикоррозийная обрабтка</span>
+        <span class="modalForm__text">Антикоррозийная обработка</span>
         <label class="modalForm-label">Как вас зовут <br>
-          <input type="text" class="modalForm-input" required>
+          <input type="text" name="name" class="modalForm-input" required>
         </label>
         <label class="modalForm-label">Ваш телефон <br>
-          <input type="text" class="modalForm-input" required>
+          <input type="text" name="phone" class="modalForm-input" required>
         </label>
         <input type="submit" class="modalForm-submit" value="Заказать услугу">
         <span class="modalForm__bottom">Наш менеджер свяжется с вами в течение 10 минут</span>

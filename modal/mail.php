@@ -1,29 +1,27 @@
 <?php
-if ($_SERVER["REQUEST_METHOD"] == "POST") {
-    if (isset($_POST['name'])) {$name = $_POST['name'];}
-    if (isset($_POST['phone'])) {$phone = $_POST['phone'];}
-    if (isset($_POST['formData'])) {$formData = $_POST['formData'];}
+$success_url = './success';
 
-    $to = "karambafe@yahoo.com"; /*Укажите адрес, га который должно приходить письмо*/
-    $sendfrom   = "its9221820@yandex.ru"; /*Укажите адрес, с которого будет приходить письмо, можно не настоящий, нужно для формирования заголовка письма*/
-    $headers  = "From: " . strip_tags($sendfrom) . "\r\n";
-    $headers .= "Reply-To: ". strip_tags($sendfrom) . "\r\n";
-    $headers .= "MIME-Version: 1.0\r\n";
-    $headers .= "Content-Type: text/html;charset=utf-8 \r\n";
-    //$subject = "$formData";
-    $subject="=?utf-8?B?". base64_encode("Заявка с сайта"). "?=";
-    $message = "$formData<br> <b>Имя пославшего:</b> $name <br><b>Телефон:</b> $phone";
-    $send = mail ($to, $subject, $message, $headers);
-    if ($send == 'true')
-    {
-    echo '<center><p class="success">Спасибо за отправку вашего сообщения!</p></center>';
-    }
-    else
-    {
-    echo '<center><p class="fail"><b>Ошибка. Сообщение не отправлено!</b></p></center>';
-    }
-} else {
-    http_response_code(403);
-    echo "Попробуйте еще раз";
-}
+$name = htmlspecialchars($_POST["name"]);
+$phone = htmlspecialchars($_POST["tel"]);
+
+  // от кого
+		$fromMail = 'Interplast@yandex.ru';
+		$fromName = 'Interplast';
+/* Сюда впишите свою эл. почту */
+$address = "karambafe@yahoo.com";
+$headers = "Content-type: text/plain; charset=\"utf-8\"\r\n";
+$headers .= "From: ". $fromName ." <". $fromMail ."> \r\n";
+/* А здесь прописывается текст сообщения, \n - перенос строки */
+$mes = "Тема: Заявка на сайте!"."\nИмя: ".$name ."\nТелефон: ".$phone;
+// $mes = $type;
+
+/* А эта функция как раз занимается отправкой письма на указанный вами email */
+$sub="=?utf-8?B?". base64_encode("Антикоррозийная обработка"). "?="; //сабж
+ $send = mail ($address,$sub,$mes,$headers);
+
+ini_set('short_open_tag', 'On');
+header('Location: '.$success_url);
 ?>
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+
+
