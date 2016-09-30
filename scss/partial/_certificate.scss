@@ -65,6 +65,24 @@
   }
 }
 
+.zoom-gallery {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+
+  &-1 {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    opacity: 0;
+  }
+
+  &-2,
+  &-3{
+    opacity: 0;
+  }
+}
+
 .image-source-link {
   color: #98C3D1;
 }

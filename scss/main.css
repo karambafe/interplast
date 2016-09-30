@@ -1556,6 +1556,18 @@ textarea {
           -webkit-transition: background-color 0.3s ease;
                   transition: background-color 0.3s ease; }
 
+.zoom-gallery {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%; }
+  .zoom-gallery-1 {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    opacity: 0; }
+  .zoom-gallery-2, .zoom-gallery-3 {
+    opacity: 0; }
+
 .image-source-link {
   color: #98C3D1; }
 
