@@ -1556,6 +1556,27 @@ textarea {
           -webkit-transition: background-color 0.3s ease;
                   transition: background-color 0.3s ease; }
 
+.image-source-link {
+  color: #98C3D1; }
+
+.mfp-with-zoom .mfp-container,
+.mfp-with-zoom.mfp-bg {
+  opacity: 0;
+  -webkit-backface-visibility: hidden;
+  /* ideally, transition speed should match zoom duration */
+  -webkit-transition: all 0.3s ease-out;
+  transition: all 0.3s ease-out; }
+
+.mfp-with-zoom.mfp-ready .mfp-container {
+  opacity: 1; }
+
+.mfp-with-zoom.mfp-ready.mfp-bg {
+  opacity: 0.8; }
+
+.mfp-with-zoom.mfp-removing .mfp-container,
+.mfp-with-zoom.mfp-removing.mfp-bg {
+  opacity: 0; }
+
 @media all and (max-width: 665px) {
   .certificate {
     -webkit-flex-wrap: wrap;
@@ -1876,20 +1897,7 @@ textarea {
 
 .modalCertificate {
   margin: 0 auto;
-  width: 730px;
-  height: 1000px;
-  background: url("../img/certificate/Sertifikat_Interplast.png") no-repeat;
+  width: 60vh;
+  height: 80vh;
+  background: url("../img/certificate/Sertifikat1.png") no-repeat;
   background-size: cover; }
-
-@media all and (max-width: 800px) {
-  .modalCertificate {
-    width: 430px;
-    height: 601px;
-    background: url("../img/certificate/Sertifikat_Interplast.png") no-repeat;
-    background-size: contain; } }
-@media all and (max-width: 500px) {
-  .modalCertificate {
-    width: 300px;
-    height: 411px;
-    background: url("../img/certificate/Sertifikat_Interplast.png") no-repeat;
-    background-size: contain; } }
