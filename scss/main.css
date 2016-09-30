@@ -257,12 +257,12 @@ textarea {
   .header__name {
     font-size: 12px;
     line-height: 16px;
-    font-family: "Roboto";
+    font-family: "Roboto", san-serif;
     font-weight: 300;
     color: rgba(64, 95, 168, 0.659); }
   .header__description {
     font-size: 18px;
-    font-family: "Roboto";
+    font-family: "Roboto", san-serif;
     color: #405fa8;
     text-align: center; }
     .header__description-bold {
@@ -273,7 +273,7 @@ textarea {
   .header__adress {
     font-size: 18px;
     line-height: 24px;
-    font-family: "Roboto";
+    font-family: "Roboto", san-serif;
     color: #333333;
     text-align: left; }
   .header__working {
@@ -283,7 +283,7 @@ textarea {
     .header__working-item {
       font-size: 12px;
       line-height: 16px;
-      font-family: "Roboto";
+      font-family: "Roboto", san-serif;
       font-weight: 300;
       color: #333333;
       text-align: left; }
@@ -304,7 +304,7 @@ textarea {
     .header__call-phone {
       font-size: 18px;
       line-height: 22px;
-      font-family: "Roboto";
+      font-family: "Roboto", san-serif;
       color: #405fa8;
       font-weight: bold;
       text-align: center;
@@ -449,7 +449,7 @@ textarea {
   .navbar__phone {
     font-size: 18px;
     line-height: 22px;
-    font-family: "Roboto";
+    font-family: "Roboto", san-serif;
     color: #405fa8;
     font-weight: bold;
     text-align: center; }
@@ -511,7 +511,7 @@ textarea {
     padding-top: 60px; }
     .offer-information__header {
       font-size: 42px;
-      font-family: "Roboto";
+      font-family: "Roboto", san-serif;
       color: #405fa8;
       font-weight: bold;
       line-height: 1.19; }
@@ -525,7 +525,7 @@ textarea {
       margin: 0; }
       .offer-information__list-item {
         font-size: 18px;
-        font-family: "Roboto";
+        font-family: "Roboto", san-serif;
         color: white;
         line-height: 1.333;
         text-align: left;
@@ -546,7 +546,7 @@ textarea {
     .offer-sign__header {
       display: block;
       font-size: 24px;
-      font-family: "Roboto";
+      font-family: "Roboto", san-serif;
       color: white;
       line-height: 1.167;
       text-align: left;
@@ -554,7 +554,7 @@ textarea {
     .offer-sign__description {
       display: block;
       font-size: 18px;
-      font-family: "Roboto";
+      font-family: "Roboto", san-serif;
       color: #ff9e02;
       line-height: 1.333;
       text-align: left;
@@ -576,7 +576,7 @@ textarea {
       width: 260px; }
       .offer-sign__form-label {
         font-size: 14px;
-        font-family: "Roboto";
+        font-family: "Roboto", san-serif;
         color: white;
         line-height: 1.571; }
       .offer-sign__form-input {
@@ -587,7 +587,7 @@ textarea {
         margin-bottom: 10px;
         padding: 0 10px;
         font-size: 16px;
-        font-family: "Roboto";
+        font-family: "Roboto", san-serif;
         color: #405fa8;
         line-height: 1.375; }
         .offer-sign__form-input_error {
@@ -712,7 +712,7 @@ textarea {
       display: block;
       height: 70px;
       font-size: 16px;
-      font-family: "Roboto";
+      font-family: "Roboto", san-serif;
       color: #333333;
       line-height: 1.5;
       text-align: center;
@@ -792,7 +792,7 @@ textarea {
   .advantages__header {
     width: 100%;
     font-size: 32px;
-    font-family: "Roboto";
+    font-family: "Roboto", san-serif;
     color: #333333;
     font-weight: bold;
     line-height: 1.188;
@@ -836,7 +836,7 @@ textarea {
               align-items: center;
       padding-left: 15px;
       font-size: 14px;
-      font-family: "Roboto";
+      font-family: "Roboto", san-serif;
       color: #333333;
       line-height: 1.571;
       text-align: left; }
@@ -897,7 +897,7 @@ textarea {
   .help__header {
     margin-bottom: 50px;
     font-size: 32px;
-    font-family: "Roboto";
+    font-family: "Roboto", san-serif;
     color: #333333;
     font-weight: bold;
     line-height: 1.188;
@@ -923,7 +923,7 @@ textarea {
     padding: 0 20px; }
     .help__description-span {
       font-size: 16px;
-      font-family: "Roboto";
+      font-family: "Roboto", san-serif;
       color: #333333;
       line-height: 1.5;
       text-align: center; }
@@ -971,7 +971,7 @@ textarea {
       margin-top: 20px;
       margin-bottom: 10px;
       font-size: 24px;
-      font-family: "Roboto";
+      font-family: "Roboto", san-serif;
       color: rgba(51, 51, 51, 0.659);
       line-height: 1.167; }
     .help__item-want {
@@ -994,7 +994,7 @@ textarea {
       text-decoration: none;
       text-transform: uppercase;
       font-size: 24px;
-      font-family: "Roboto";
+      font-family: "Roboto", san-serif;
       color: #005ead;
       line-height: 1.167; }
       .help__item-want:hover {
@@ -1019,7 +1019,7 @@ textarea {
       height: 160px;
       padding: 0 20px;
       font-size: 18px;
-      font-family: "Roboto";
+      font-family: "Roboto", san-serif;
       color: #f0f2f7;
       font-weight: bold;
       text-align: center;
@@ -1042,7 +1042,7 @@ textarea {
         background-size: cover; }
     .help__item-title {
       font-size: 18px;
-      font-family: "Roboto";
+      font-family: "Roboto", san-serif;
       color: #405fa8;
       font-weight: bold;
       text-transform: uppercase;
@@ -1050,7 +1050,7 @@ textarea {
       padding: 20px 30px; }
     .help__item-click {
       font-size: 16px;
-      font-family: "Roboto";
+      font-family: "Roboto", san-serif;
       color: #333333;
       line-height: 1.5;
       text-align: center;
@@ -1112,7 +1112,7 @@ textarea {
     width: 404px; }
     .insulation__description-title {
       font-size: 23px;
-      font-family: "Roboto";
+      font-family: "Roboto", san-serif;
       color: white;
       line-height: 1.167; }
     .insulation__description-line {
@@ -1121,7 +1121,7 @@ textarea {
       background: #fff; }
     .insulation__description-text {
       font-size: 14px;
-      font-family: "Roboto";
+      font-family: "Roboto", san-serif;
       color: white;
       line-height: 1.571; }
   .insulation__more {
@@ -1129,13 +1129,13 @@ textarea {
     text-align: center; }
     .insulation__more-title {
       font-size: 24px;
-      font-family: "Roboto";
+      font-family: "Roboto", san-serif;
       color: white;
       line-height: 0.917; }
     .insulation__more-link {
       margin-top: 10px;
       font-size: 18px;
-      font-family: "Roboto";
+      font-family: "Roboto", san-serif;
       color: white;
       text-decoration: underline;
       text-transform: uppercase;
@@ -1143,7 +1143,7 @@ textarea {
 
 .╨₧╨╜_╨▓╤ü╨┐╨╛╨╝╨╜╨╕╨╗_╨╕_╤ü╨╛╨╛╨▒╤Ç╨░╨╖╨╕╨╗_╨▓╤ü╤æ_╨╛_╨ö╤â╨╜╨╡╤ç╨║╨╡__╨╕_╤ü╨╡╤Ç╨┤╤å╨╡ {
   font-size: 14px;
-  font-family: "Roboto";
+  font-family: "Roboto", san-serif;
   color: white;
   line-height: 1.571;
   text-align: left;
@@ -1156,7 +1156,7 @@ textarea {
 
 .╨Ñ╨╛╤é╨╕╤é╨╡_╤â╨╖╨╜╨░╤é╤î_╨▒╨╛╨╗╤î╤ê╨╡_ {
   font-size: 24px;
-  font-family: "Roboto";
+  font-family: "Roboto", san-serif;
   color: white;
   line-height: 0.917;
   text-align: center;
@@ -1167,7 +1167,7 @@ textarea {
 
 .╨ö╨░__╤à╨╛╤ç╤â_ {
   font-size: 18px;
-  font-family: "Roboto";
+  font-family: "Roboto", san-serif;
   color: white;
   text-decoration: underline;
   text-transform: uppercase;
@@ -1193,7 +1193,7 @@ textarea {
   .how-work__title {
     margin: 0;
     font-size: 32px;
-    font-family: "Roboto";
+    font-family: "Roboto", san-serif;
     color: #333333;
     font-weight: bold;
     text-align: center; }
@@ -1240,7 +1240,7 @@ textarea {
       margin-top: 25px;
       text-align: center;
       font-size: 16px;
-      font-family: "Roboto";
+      font-family: "Roboto", san-serif;
       color: #333333;
       line-height: 1.5; }
     .how-work__item-image {
@@ -1263,7 +1263,7 @@ textarea {
     margin: 0;
     margin-bottom: 5px;
     font-size: 24px;
-    font-family: "Roboto";
+    font-family: "Roboto", san-serif;
     color: #2d4275;
     line-height: 1.167;
     text-align: center; }
@@ -1271,7 +1271,7 @@ textarea {
       display: block;
       width: 100%;
       font-size: 14px;
-      font-family: "Roboto";
+      font-family: "Roboto", san-serif;
       color: #333333;
       line-height: 1.571;
       text-align: center; }
@@ -1296,7 +1296,7 @@ textarea {
     .how-work__form-label {
       margin-right: 30px;
       font-size: 14px;
-      font-family: "Roboto";
+      font-family: "Roboto", san-serif;
       color: rgba(51, 51, 51, 0.659);
       line-height: 2; }
     .how-work__form-input {
@@ -1368,7 +1368,7 @@ textarea {
     margin: 0;
     margin-bottom: 50px;
     font-size: 32px;
-    font-family: "Roboto";
+    font-family: "Roboto", san-serif;
     color: #333333;
     font-weight: bold;
     line-height: 1.188;
@@ -1424,7 +1424,7 @@ textarea {
       padding-left: 20px;
       margin-bottom: 10px;
       font-size: 24px;
-      font-family: "Roboto";
+      font-family: "Roboto", san-serif;
       color: #333333;
       line-height: 0.917; }
     .talk__item-car {
@@ -1434,7 +1434,7 @@ textarea {
       display: block;
       padding-left: 20px;
       font-size: 18px;
-      font-family: "Roboto";
+      font-family: "Roboto", san-serif;
       color: rgba(64, 95, 168, 0.549);
       font-weight: bold;
       text-transform: uppercase;
@@ -1455,7 +1455,7 @@ textarea {
         display: block;
         width: 230px;
         font-size: 14px;
-        font-family: "Roboto";
+        font-family: "Roboto", san-serif;
         color: #333333;
         font-style: italic;
         line-height: 1.571; }
@@ -1505,7 +1505,7 @@ textarea {
     .certificate__dinitrol-off {
       display: block;
       font-size: 24px;
-      font-family: "Roboto";
+      font-family: "Roboto", san-serif;
       color: #333333;
       line-height: 1.583;
       text-align: center; }
@@ -1513,7 +1513,7 @@ textarea {
       display: block;
       font-size: 28px;
       font-weight: bold;
-      font-family: "Roboto";
+      font-family: "Roboto", san-serif;
       color: #005ead;
       line-height: 1.583;
       text-align: center; }
@@ -1638,14 +1638,14 @@ textarea {
       margin: 0;
       margin-bottom: 20px;
       font-size: 24px;
-      font-family: "Roboto";
+      font-family: "Roboto", san-serif;
       color: #333333;
       line-height: 1.167;
       text-align: left; }
     .contacts__questions-copyright {
       display: block;
       font-size: 12px;
-      font-family: "Roboto";
+      font-family: "Roboto", san-serif;
       color: #333333;
       line-height: 1.2;
       text-align: center; }
@@ -1655,7 +1655,7 @@ textarea {
       margin: 0;
       margin-bottom: 20px;
       font-size: 14px;
-      font-family: "Roboto";
+      font-family: "Roboto", san-serif;
       color: #333333;
       line-height: 1.571;
       text-align: left; }
@@ -1679,7 +1679,7 @@ textarea {
       .contacts__questions-form-label {
         margin-bottom: 10px;
         font-size: 14px;
-        font-family: "Roboto";
+        font-family: "Roboto", san-serif;
         color: rgba(51, 51, 51, 0.659);
         line-height: 2; }
       .contacts__questions-form-input {
@@ -1688,7 +1688,7 @@ textarea {
         background-color: #e3e7f2;
         padding: 0 10px;
         font-size: 16px;
-        font-family: "Roboto";
+        font-family: "Roboto", san-serif;
         color: #405fa8;
         line-height: 1.375;
         border: 1px solid #e3e7f2; }
@@ -1734,7 +1734,7 @@ textarea {
       margin: 0;
       margin-bottom: 20px;
       font-size: 24px;
-      font-family: "Roboto";
+      font-family: "Roboto", san-serif;
       color: #333333;
       line-height: 1.167;
       text-align: left; }
@@ -1752,7 +1752,7 @@ textarea {
           margin-right: 0; }
         .contacts__address-wrapper-list-item {
           font-size: 18px;
-          font-family: "Roboto";
+          font-family: "Roboto", san-serif;
           color: #333333;
           line-height: 1.333;
           text-align: left; }
@@ -1841,14 +1841,14 @@ textarea {
     margin: 0;
     display: block;
     font-size: 24px;
-    font-family: "Roboto";
+    font-family: "Roboto", san-serif;
     color: #333333;
     line-height: 1.167;
     text-align: left; }
   .modalForm__text {
     display: block;
     font-size: 18px;
-    font-family: "Roboto";
+    font-family: "Roboto", san-serif;
     color: #405fa8;
     font-weight: bold;
     margin-bottom: 35px;
@@ -1857,7 +1857,7 @@ textarea {
   .modalForm-label {
     margin-bottom: 10px;
     font-size: 14px;
-    font-family: "Roboto";
+    font-family: "Roboto", san-serif;
     color: rgba(51, 51, 51, 0.659);
     line-height: 2;
     text-align: left; }
@@ -1867,7 +1867,7 @@ textarea {
     background-color: #e3e7f2;
     padding: 0 10px;
     font-size: 16px;
-    font-family: "Roboto";
+    font-family: "Roboto", san-serif;
     color: #405fa8;
     line-height: 1.375;
     border: 1px solid #e3e7f2; }
@@ -1895,7 +1895,7 @@ textarea {
     display: block;
     margin-top: 10px;
     font-size: 12px;
-    font-family: "Roboto";
+    font-family: "Roboto", san-serif;
     color: #333333;
     line-height: 1.2;
     text-align: center; }

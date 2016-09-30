@@ -7,7 +7,7 @@
   &__header {
     margin-bottom: 50px;
     font-size: 32px;
-    font-family: "Roboto";
+    font-family: "Roboto", san-serif;
     color: rgb(51, 51, 51);
     font-weight: bold;
     line-height: 1.188;
@@ -25,7 +25,7 @@
 
     &-span {
       font-size: 16px;
-      font-family: "Roboto";
+      font-family: "Roboto", san-serif;
       color: rgb(51, 51, 51);
       line-height: 1.5;
       text-align: center;
@@ -67,7 +67,7 @@
       margin-top: 20px;
       margin-bottom: 10px;
       font-size: 24px;
-      font-family: "Roboto";
+      font-family: "Roboto", san-serif;
       color: rgba(51, 51, 51, 0.659);
       line-height: 1.167;
     }
@@ -83,7 +83,7 @@
       text-decoration: none;
       text-transform: uppercase;
       font-size: 24px;
-      font-family: "Roboto";
+      font-family: "Roboto", san-serif;
       color: #005ead;
       line-height: 1.167;
 
@@ -102,7 +102,7 @@
       height: 160px;
       padding: 0 20px;
       font-size: 18px;
-      font-family: "Roboto";
+      font-family: "Roboto", san-serif;
       color: rgb(240, 242, 247);
       font-weight: bold;
       text-align: center;
@@ -137,7 +137,7 @@
 
     &-title {
       font-size: 18px;
-      font-family: "Roboto";
+      font-family: "Roboto", san-serif;
       color: rgb(64, 95, 168);
       font-weight: bold;
       text-transform: uppercase;
@@ -147,7 +147,7 @@
 
     &-click {
       font-size: 16px;
-      font-family: "Roboto";
+      font-family: "Roboto", san-serif;
       color: rgb(51, 51, 51);
       line-height: 1.5;
       text-align: center;

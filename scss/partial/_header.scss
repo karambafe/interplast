@@ -26,14 +26,14 @@
   &__name {
     font-size: 12px;
     line-height: 16px;
-    font-family: "Roboto";
+    font-family: "Roboto", san-serif;
     font-weight: 300;
     color: rgba(64, 95, 168, 0.659);
   }
 
   &__description {
     font-size: 18px;
-    font-family: "Roboto";
+    font-family: "Roboto", san-serif;
     color: #405fa8;
     text-align: center;
     &-bold {
@@ -47,7 +47,7 @@
   &__adress {
     font-size: 18px;
     line-height: 24px;
-    font-family: "Roboto";
+    font-family: "Roboto", san-serif;
     color: rgb(51, 51, 51);
     text-align: left;
   }
@@ -60,7 +60,7 @@
     &-item {
       font-size: 12px;
       line-height: 16px;
-      font-family: "Roboto";
+      font-family: "Roboto", san-serif;
       font-weight: 300;
       color: rgb(51, 51, 51);
       text-align: left;
@@ -74,7 +74,7 @@
     &-phone {
       font-size: 18px;
       line-height: 22px;
-      font-family: "Roboto";
+      font-family: "Roboto", san-serif;
       color: rgb(64, 95, 168);
       font-weight: bold;
       text-align: center;
