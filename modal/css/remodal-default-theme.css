@@ -5,7 +5,8 @@
 }
 
 .remodal-overlay {
-  background: rgba(244,245,248,0.9);
+  background: #0b0b0b;
+  opacity: 0.8;
 }
 
 .remodal-overlay.remodal-is-opening,
