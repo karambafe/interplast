@@ -2,7 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="16ff664c-2e8a-43f9-b6ba-875af83a3338" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/main.js" afterPath="$PROJECT_DIR$/js/main.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/scss/main.css" afterPath="$PROJECT_DIR$/scss/main.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/scss/partial/_contacts.scss" afterPath="$PROJECT_DIR$/scss/partial/_contacts.scss" />
     </list>
     <ignored path="interplast.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -24,14 +27,14 @@
     </favorites_list>
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.25249377">
+    <splitter split-orientation="horizontal" split-proportion="0.46134663">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
           <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/index.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="30">
-                  <caret line="333" column="26" selection-start-line="333" selection-start-column="18" selection-end-line="333" selection-end-column="26" />
+                <state relative-caret-position="317">
+                  <caret line="361" column="44" selection-start-line="361" selection-start-column="44" selection-end-line="361" selection-end-column="44" />
                   <folding />
                 </state>
               </provider>
@@ -131,11 +134,21 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="main.js" pinned="false" current-in-tab="true">
+          <file leaf-file-name="main.js" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/js/main.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="900">
-                  <caret line="63" column="0" selection-start-line="63" selection-start-column="0" selection-end-line="63" selection-end-column="0" />
+                <state relative-caret-position="330">
+                  <caret line="22" column="38" selection-start-line="22" selection-start-column="38" selection-end-line="22" selection-end-column="38" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="_contacts.scss" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/scss/partial/_contacts.scss">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="781">
+                  <caret line="192" column="0" selection-start-line="192" selection-start-column="0" selection-end-line="192" selection-end-column="0" />
                   <folding />
                 </state>
               </provider>
@@ -170,7 +183,6 @@
         <option value="$PROJECT_DIR$/contacts.php" />
         <option value="$PROJECT_DIR$/offer.php" />
         <option value="$PROJECT_DIR$/css/normalize.css" />
-        <option value="$PROJECT_DIR$/scss/partial/_contacts.scss" />
         <option value="$PROJECT_DIR$/scss/partial/_how-work.scss" />
         <option value="$PROJECT_DIR$/scss/partial/_offer.scss" />
         <option value="$PROJECT_DIR$/scss/partial/_help.scss" />
@@ -179,8 +191,9 @@
         <option value="$PROJECT_DIR$/scss/partial/_modal_remodal.scss" />
         <option value="$PROJECT_DIR$/scss/partial/_navbar.scss" />
         <option value="$PROJECT_DIR$/scss/partial/_header.scss" />
-        <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/js/main.js" />
+        <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/scss/partial/_contacts.scss" />
       </list>
     </option>
   </component>
@@ -499,12 +512,12 @@
       <workItem from="1474994590712" duration="15197000" />
       <workItem from="1475053034073" duration="7023000" />
       <workItem from="1475141850447" duration="38918000" />
-      <workItem from="1475223746109" duration="1928000" />
+      <workItem from="1475223746109" duration="3213000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="82034000" />
+    <option name="totallyTimeSpent" value="83319000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -836,13 +849,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/scss/partial/_contacts.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="460">
-          <caret line="73" column="49" selection-start-line="73" selection-start-column="49" selection-end-line="73" selection-end-column="49" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/css/normalize.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="797">
@@ -922,18 +928,26 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
+    <entry file="file://$PROJECT_DIR$/js/main.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="333" column="26" selection-start-line="333" selection-start-column="18" selection-end-line="333" selection-end-column="26" />
+        <state relative-caret-position="330">
+          <caret line="22" column="38" selection-start-line="22" selection-start-column="38" selection-end-line="22" selection-end-column="38" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/main.js">
+    <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="900">
-          <caret line="63" column="0" selection-start-line="63" selection-start-column="0" selection-end-line="63" selection-end-column="0" />
+        <state relative-caret-position="317">
+          <caret line="361" column="44" selection-start-line="361" selection-start-column="44" selection-end-line="361" selection-end-column="44" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scss/partial/_contacts.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="781">
+          <caret line="192" column="0" selection-start-line="192" selection-start-column="0" selection-end-line="192" selection-end-column="0" />
           <folding />
         </state>
       </provider>

@@ -153,8 +153,20 @@
   }
 
   &__map {
+    position: relative;
     width: calc(100vw - 427px);
     height: 375px;
+
+    &-shadow {
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      background-color: transparent;
+      box-shadow: inset 0px 3px 15px 0px rgba(0, 0, 0, 0.33);
+      z-index: 100;
+    }
   }
 }
 
@@ -210,5 +222,3 @@
     }
   }
 }
-
-
