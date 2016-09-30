@@ -406,13 +406,14 @@
       <button data-remodal-action="close" class="remodal-close" aria-label="Close"></button>
       <form id="form1" action="corrosion.php" method="post" class="modalForm">
         <h2 class="modalForm__title">Я хочу заказать услугу</h2>
-        <span name="type" class="modalForm__text">Антикоррозийная обработка</span>
+        <span class="modalForm__text">Антикоррозийная обработка</span>
         <label class="modalForm-label">Как вас зовут <br>
           <input type="text" name="name" class="modalForm-input">
         </label>
         <label class="modalForm-label">Ваш телефон <br>
           <input type="text" name="phone" class="modalForm-input">
         </label>
+        <input class="modalForm-hidden" type="text" name="type">
         <input type="submit" class="modalForm-submit" onclick="validateModal(this.form)" value="Заказать услугу">
         <span class="modalForm-error">Заполните все поля!</span>
         <span class="modalForm__bottom">Наш менеджер свяжется с вами в течение 10 минут</span>
@@ -421,7 +422,7 @@
 
     <div class="remodal" data-remodal-id="callRequest" role="dialog" aria-labelledby="modal1Title" aria-describedby="modal1Desc">
       <button data-remodal-action="close" class="remodal-close" aria-label="Close"></button>
-      <form id="form3" action="insulation.php" method="post" class="modalForm">
+      <form id="form3" action="callRequest.php" method="post" class="modalForm">
         <h2 class="modalForm__title">Заказать звонок</h2>
         <label class="modalForm-label">Как вас зовут <br>
           <input type="text" name="name" class="modalForm-input">

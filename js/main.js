@@ -148,6 +148,7 @@ function validateModal(form) {
 
 function setService(id) {
   $('.modalForm__text').text(id);
+  $('.modalForm-hidden').val(id);
 }
 
 $(document).ready(function() {

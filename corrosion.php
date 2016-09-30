@@ -17,7 +17,7 @@ $mes = "Тема: Заявка на сайте!"."\nИмя: ".$name ."\nТеле
 // $mes = $type;
 
 /* А эта функция как раз занимается отправкой письма на указанный вами email */
-$sub="=?utf-8?B?". base64_encode("Антикоррозийная обработка"). "?="; //сабж
+$sub="=?utf-8?B?". base64_encode($type). "?="; //сабж
  $send = mail ($address,$sub,$mes,$headers);
 
 ini_set('short_open_tag', 'On');
