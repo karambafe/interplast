@@ -3,10 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="16ff664c-2e8a-43f9-b6ba-875af83a3338" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/corrosion.php" afterPath="$PROJECT_DIR$/corrosion.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/main.js" afterPath="$PROJECT_DIR$/js/main.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/scss/partial/_modal_remodal.scss" afterPath="$PROJECT_DIR$/scss/partial/_modal_remodal.scss" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/insulation.php" afterPath="$PROJECT_DIR$/callRequest.php" />
     </list>
     <ignored path="interplast.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -34,7 +30,7 @@
           <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/index.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="865">
+                <state relative-caret-position="2395">
                   <caret line="424" column="42" selection-start-line="424" selection-start-column="42" selection-end-line="424" selection-end-column="42" />
                   <folding>
                     <element signature="n#style#0;n#a#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#section#7;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -69,11 +65,11 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="corrosion.php" pinned="false" current-in-tab="false">
+          <file leaf-file-name="corrosion.php" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/corrosion.php">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="420">
-                  <caret line="28" column="0" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
+                <state relative-caret-position="165">
+                  <caret line="11" column="45" selection-start-line="11" selection-start-column="45" selection-end-line="11" selection-end-column="45" />
                   <folding />
                 </state>
               </provider>
@@ -82,18 +78,28 @@
           <file leaf-file-name="callRequest.php" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/callRequest.php">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="435">
-                  <caret line="29" column="0" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
+                <state relative-caret-position="180">
+                  <caret line="12" column="28" selection-start-line="10" selection-start-column="0" selection-end-line="12" selection-end-column="28" />
                   <folding />
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="contacts.php" pinned="false" current-in-tab="true">
+          <file leaf-file-name="contacts.php" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/contacts.php">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="60">
-                  <caret line="4" column="47" selection-start-line="4" selection-start-column="47" selection-end-line="4" selection-end-column="47" />
+                <state relative-caret-position="420">
+                  <caret line="28" column="0" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="_offer.scss" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/scss/partial/_offer.scss">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="496">
+                  <caret line="183" column="0" selection-start-line="183" selection-start-column="0" selection-end-line="183" selection-end-column="0" />
                   <folding />
                 </state>
               </provider>
@@ -134,12 +140,12 @@
         <option value="$PROJECT_DIR$/scss/partial/_how-work.scss" />
         <option value="$PROJECT_DIR$/scss/partial/_talk.scss" />
         <option value="$PROJECT_DIR$/scss/partial/_certificate.scss" />
-        <option value="$PROJECT_DIR$/scss/partial/_offer.scss" />
         <option value="$PROJECT_DIR$/scss/partial/_modal_remodal.scss" />
         <option value="$PROJECT_DIR$/js/main.js" />
-        <option value="$PROJECT_DIR$/corrosion.php" />
         <option value="$PROJECT_DIR$/insulation.php" />
         <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/scss/partial/_offer.scss" />
+        <option value="$PROJECT_DIR$/corrosion.php" />
       </list>
     </option>
   </component>
@@ -473,12 +479,12 @@
       <workItem from="1475053034073" duration="7023000" />
       <workItem from="1475141850447" duration="38918000" />
       <workItem from="1475223746109" duration="15686000" />
-      <workItem from="1475248717291" duration="5189000" />
+      <workItem from="1475248717291" duration="5726000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="100981000" />
+    <option name="totallyTimeSpent" value="101518000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -569,6 +575,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
           <caret line="6" column="19" selection-start-line="6" selection-start-column="19" selection-end-line="6" selection-end-column="19" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -626,6 +633,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -842,13 +850,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/scss/partial/_offer.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="38" selection-start-line="5" selection-start-column="38" selection-end-line="5" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/scss/partial/_key-advantage.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="481">
@@ -894,17 +895,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/corrosion.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="28" column="0" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="865">
+        <state relative-caret-position="2395">
           <caret line="424" column="42" selection-start-line="424" selection-start-column="42" selection-end-line="424" selection-end-column="42" />
           <folding>
             <element signature="n#style#0;n#a#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#section#7;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -914,18 +907,34 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/callRequest.php">
+    <entry file="file://$PROJECT_DIR$/contacts.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="435">
-          <caret line="29" column="0" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
+        <state relative-caret-position="420">
+          <caret line="28" column="0" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/contacts.php">
+    <entry file="file://$PROJECT_DIR$/scss/partial/_offer.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="47" selection-start-line="4" selection-start-column="47" selection-end-line="4" selection-end-column="47" />
+        <state relative-caret-position="496">
+          <caret line="183" column="0" selection-start-line="183" selection-start-column="0" selection-end-line="183" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/callRequest.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="28" selection-start-line="10" selection-start-column="0" selection-end-line="12" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/corrosion.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="45" selection-start-line="11" selection-start-column="45" selection-end-line="11" selection-end-column="45" />
           <folding />
         </state>
       </provider>

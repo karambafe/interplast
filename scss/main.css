@@ -644,9 +644,11 @@ textarea {
 @media all and (max-width: 1200px) {
   .offer__container-adaptive {
     width: 100%; } }
-@media all and (max-width: 1100px) {
+@media all and (max-width: 1000px) {
   .offer {
-    height: 100%; }
+    height: 100%;
+    background: url("../img/offer/backkWith.jpg") no-repeat center;
+    background-size: cover; }
     .offer__container-adaptive {
       height: 100%;
       -webkit-box-orient: vertical;
@@ -655,9 +657,6 @@ textarea {
           -ms-flex-direction: column;
               flex-direction: column;
       padding-bottom: 70px; }
-    .offer-inspection {
-      margin: 0;
-      margin-top: 50px; }
     .offer-information {
       padding-top: 30px; }
     .offer-sign__form {
@@ -1970,3 +1969,5 @@ textarea {
       text-align: center;
       font-size: 14px;
       color: red; }
+  .modalForm-hidden {
+    display: none; }

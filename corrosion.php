@@ -9,7 +9,9 @@ $type = htmlspecialchars($_POST["type"]);
 		$fromMail = 'Interplast@yandex.ru';
 		$fromName = 'Interplast';
 /* Сюда впишите свою эл. почту */
-$address = "karambafe@yahoo.com";
+$address = "vakulenko@interplastn.ru" . ", ";
+$address .= "subaru@interplastn.ru" . ", ";
+$address .= "info@upfly.ru";
 $headers = "Content-type: text/plain; charset=\"utf-8\"\r\n";
 $headers .= "From: ". $fromName ." <". $fromMail ."> \r\n";
 /* А здесь прописывается текст сообщения, \n - перенос строки */

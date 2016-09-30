@@ -160,19 +160,16 @@
   }
 }
 
-@media all and (max-width: 1100px) {
+@media all and (max-width: 1000px) {
   .offer {
     height: 100%;
+    background: url("../img/offer/backkWith.jpg") no-repeat center;
+    background-size: cover;
 
     &__container-adaptive {
       height: 100%;
       flex-direction: column;
       padding-bottom: 70px;
-    }
-
-    &-inspection {
-      margin: 0;
-      margin-top: 50px;
     }
 
     &-information {
