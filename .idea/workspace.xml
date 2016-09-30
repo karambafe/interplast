@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="16ff664c-2e8a-43f9-b6ba-875af83a3338" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/corrosion.php" afterPath="$PROJECT_DIR$/corrosion.php" />
-    </list>
+    <list default="true" id="16ff664c-2e8a-43f9-b6ba-875af83a3338" name="Default" comment="" />
     <ignored path="interplast.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path=".idea/dataSources.local.xml" />
@@ -479,15 +477,15 @@
       <workItem from="1475053034073" duration="7023000" />
       <workItem from="1475141850447" duration="38918000" />
       <workItem from="1475223746109" duration="15686000" />
-      <workItem from="1475248717291" duration="5726000" />
+      <workItem from="1475248717291" duration="5752000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="101518000" />
+    <option name="totallyTimeSpent" value="101544000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.14658849" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
