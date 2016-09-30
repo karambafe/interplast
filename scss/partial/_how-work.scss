@@ -7,6 +7,11 @@
   background-repeat: no-repeat;
   box-sizing: border-box;
 
+  &__container-adaptive {
+    margin: 0 auto;
+    width: 1260px;
+  }
+
   &__title {
     margin: 0;
     font-size: 32px;
@@ -160,10 +165,20 @@
 }
 
 @media all and (max-width: 1260px) {
+  .how-work__container-adaptive {
+    width: 100%;
+  }
+
   .how-work__item {
     margin: 0 70px;
   }
 }
+
+//@media all and (max-width: 1200px) {
+//  .how-work__container-adaptive {
+//    width: 100%;
+//  }
+//}
 
 @media all and (max-width: 930px) {
   .how-work__item {

@@ -1,11 +1,17 @@
 .certificate {
   display: flex;
-  justify-content: space-around;
-  align-items: center;
+  justify-content: center;
   width: 100%;
   height: 300px;
   background: url("../img/certificate/background.jpg") no-repeat center;
   background-size: cover;
+
+  &__container-adaptive {
+    width: 1200px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
 
   &__dinitrol {
     display: block;
@@ -110,11 +116,20 @@
   opacity: 0;
 }
 
+@media all and (max-width: 1200px) {
+  .certificate__container-adaptive {
+    width: 100%;
+  }
+}
+
 @media all and (max-width: 665px) {
   .certificate {
-    flex-wrap: wrap;
     height: 100%;
     padding-top: 30px;
+
+    &__container-adaptive {
+      flex-wrap: wrap;
+    }
 
     &__dinitrol {
       order: 1;
