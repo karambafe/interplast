@@ -2,15 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="16ff664c-2e8a-43f9-b6ba-875af83a3338" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/certificate/Sertifikat1.png" afterPath="$PROJECT_DIR$/img/certificate/Sertifikat1.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/scss/main.css" afterPath="$PROJECT_DIR$/scss/main.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/scss/partial/_certificate.scss" afterPath="$PROJECT_DIR$/scss/partial/_certificate.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/scss/partial/_contacts.scss" afterPath="$PROJECT_DIR$/scss/partial/_contacts.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/scss/partial/_header.scss" afterPath="$PROJECT_DIR$/scss/partial/_header.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/scss/partial/_help.scss" afterPath="$PROJECT_DIR$/scss/partial/_help.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/scss/partial/_how-work.scss" afterPath="$PROJECT_DIR$/scss/partial/_how-work.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/scss/partial/_modal_remodal.scss" afterPath="$PROJECT_DIR$/scss/partial/_modal_remodal.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/scss/partial/_navbar.scss" afterPath="$PROJECT_DIR$/scss/partial/_navbar.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/scss/partial/_offer.scss" afterPath="$PROJECT_DIR$/scss/partial/_offer.scss" />
     </list>
     <ignored path="interplast.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -409,12 +402,12 @@
       <workItem from="1475053034073" duration="7023000" />
       <workItem from="1475141850447" duration="38918000" />
       <workItem from="1475223746109" duration="15686000" />
-      <workItem from="1475248717291" duration="8385000" />
+      <workItem from="1475248717291" duration="8982000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="104177000" />
+    <option name="totallyTimeSpent" value="104774000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
