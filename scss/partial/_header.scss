@@ -159,11 +159,11 @@
 }
 
 @media all and (max-width: 400px) {
-  .header__logo {
+  .header__container-logo {
     display: none;
   }
 
   .header__call {
-    justify-content: space-between;
+    justify-content: space-around;
   }
 }
