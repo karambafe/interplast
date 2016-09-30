@@ -38,7 +38,7 @@
         </ul>
         <div class="header__call">
           <span class="header__call-phone">8 831 200-31-35</span>
-          <a href="#modal" class="header__call-button">Заказать звонок</a>
+          <a href="#callRequest" class="header__call-button">Заказать звонок</a>
         </div>
       </div>
     </header>
@@ -196,31 +196,31 @@
           <div class="help__item">
             <div class="help__item-image help__item-image-1">Обработка днища + мойка и сушка </div>
             <span class="help__item-price">от 3350 руб.</span>
-            <a href="#modal" class="help__item-want">Хочу</a>
+            <a href="#modal" class="help__item-want" id="Обработка днища + мойка и сушка" onclick="setService(this.id)">Хочу</a>
           </div>
           <div class="help__item">
             <div class="help__item-image help__item-image-2">Обработка колесных арок </div>
             <span class="help__item-price">от 3350 руб.</span>
-            <a href="#modal" class="help__item-want">Хочу</a>
+            <a href="#modal" id="Обработка колесных арок" onclick="setService(this.id)" class="help__item-want">Хочу</a>
           </div>
           <div class="help__item">
             <div class="help__item-image help__item-image-3">Обработка скрытых полостей </div>
             <span class="help__item-price">от 3350 руб.</span>
-            <a href="#modal" class="help__item-want">Хочу</a>
+            <a href="#modal" class="help__item-want" id="Обработка скрытых полостей" onclick="setService(this.id)">Хочу</a>
           </div>
           <div class="help__item">
             <div class="help__item-image help__item-image-4">Обработка моторного отсека </div>
             <span class="help__item-price">от 3350 руб.</span>
-            <a href="#modal" class="help__item-want">Хочу</a>
+            <a href="#modal" class="help__item-want" id="Обработка моторного отсека" onclick="setService(this.id)">Хочу</a>
           </div>
           <div class="help__item">
             <div class="help__item-image help__item-image-5">Комплексная обработка </div>
             <span class="help__item-price">от 3350 руб.</span>
-            <a href="#modal" class="help__item-want">Хочу</a>
+            <a href="#modal" class="help__item-want" id="Комплексная обработка" onclick="setService(this.id)">Хочу</a>
           </div>
           <div class="help__item">
             <h1 class="help__item-title">Не определились с выбором?</h1>
-            <span class="help__item-click">Мы поможем! <a href="#modal" >Оставьте заявку</a> на бесплатную консультацию</span>
+            <span class="help__item-click">Мы поможем! <a href="#bottom" >Оставьте заявку</a> на бесплатную консультацию</span>
           </div>
         </div>
         <div class="help__description">
@@ -242,7 +242,7 @@
         </div>
         <div class="insulation__more">
           <h2 class="insulation__more-title">Хотите узнать больше?</h2>
-          <a href="#insulation" class="insulation__more-link">ДА, ХОЧУ</a>
+          <a href="#modal" id="Шумоизоляция"  onclick="setService(this.id)" class="insulation__more-link">ДА, ХОЧУ</a>
         </div>
       </div>
     </section>
@@ -359,7 +359,7 @@
     </section>
 
     <section class="contacts">
-      <div class="contacts__questions">
+      <div id="bottom" class="contacts__questions">
         <h2 class="contacts__questions-title">У вас остались  вопросы?</h2>
         <span class="contacts__questions-text">Оставьте заявку на бесплатную консультацию</span>
         <form id="contacts" class="contacts__questions-form" action="contacts.php" method="post">
@@ -398,7 +398,7 @@
 
     <section class="navbar">
       <div class="navbar__logo"></div>
-      <a href="#modal" class="navbar__call">Заказать звонок</a>
+      <a href="#callRequest" class="navbar__call">Заказать звонок</a>
       <div class="navbar__phone">8 831 200-31-35</div>
     </section>
 
@@ -406,7 +406,7 @@
       <button data-remodal-action="close" class="remodal-close" aria-label="Close"></button>
       <form id="form1" action="corrosion.php" method="post" class="modalForm">
         <h2 class="modalForm__title">Я хочу заказать услугу</h2>
-        <span class="modalForm__text">Антикоррозийная обработка</span>
+        <span name="type" class="modalForm__text">Антикоррозийная обработка</span>
         <label class="modalForm-label">Как вас зовут <br>
           <input type="text" name="name" class="modalForm-input">
         </label>
@@ -419,11 +419,10 @@
       </form>
     </div>
 
-    <div class="remodal" data-remodal-id="insulation" role="dialog" aria-labelledby="modal1Title" aria-describedby="modal1Desc">
+    <div class="remodal" data-remodal-id="callRequest" role="dialog" aria-labelledby="modal1Title" aria-describedby="modal1Desc">
       <button data-remodal-action="close" class="remodal-close" aria-label="Close"></button>
-      <form id="form2" action="insulation.php" method="post" class="modalForm">
-        <h2 class="modalForm__title">Я хочу заказать услугу</h2>
-        <span class="modalForm__text">Шумоизоляция</span>
+      <form id="form3" action="insulation.php" method="post" class="modalForm">
+        <h2 class="modalForm__title">Заказать звонок</h2>
         <label class="modalForm-label">Как вас зовут <br>
           <input type="text" name="name" class="modalForm-input">
         </label>

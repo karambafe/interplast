@@ -3,18 +3,17 @@ $success_url = './success';
 
 $name = htmlspecialchars($_POST["name"]);
 $phone = htmlspecialchars($_POST["phone"]);
+$type = htmlspecialchars($_POST["type"]);
 
   // от кого
 		$fromMail = 'Interplast@yandex.ru';
 		$fromName = 'Interplast';
 /* Сюда впишите свою эл. почту */
-$address = "vakulenko@interplastn.ru" . ", ";
-$address .= "subaru@interplastn.ru" . ", ";
-$address .= "info@upfly.ru";
+$address = "karambafe@yahoo.com";
 $headers = "Content-type: text/plain; charset=\"utf-8\"\r\n";
 $headers .= "From: ". $fromName ." <". $fromMail ."> \r\n";
 /* А здесь прописывается текст сообщения, \n - перенос строки */
-$mes = "Тема: Заявка на сайте!"."\nИмя: ".$name ."\nТелефон: ".$phone;
+$mes = "Тема: Заявка на сайте!"."\nИмя: ".$name ."\nТелефон: ".$phone."\nТип: ".$type;
 // $mes = $type;
 
 /* А эта функция как раз занимается отправкой письма на указанный вами email */

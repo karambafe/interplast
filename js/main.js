@@ -117,6 +117,8 @@ function validateModal(form) {
   var name = elems.name.value;
   var phone = elems.phone.value;
 
+  var allSpan = document.getElementsByClassName("modalForm-error");
+
   var allInput = document.getElementsByClassName('modalForm-input');
   for (i=0; i < (allInput.length) ; i++) {
     if (allInput[i].classList.contains('modalForm-input_error')) {
@@ -127,16 +129,25 @@ function validateModal(form) {
 
   if (!name) {
     event.preventDefault();
-    document.getElementsByClassName("modalForm-error")[0].classList.add('modalForm-error_active');
+    for (i=0; i < (allSpan.length) ; i++) {
+      allSpan[i].classList.add('modalForm-error_active');
+    }
     elems.name.classList.add('modalForm-input_error');
 
   }
 
   if (!phone) {
     event.preventDefault();
+    for (i=0; i < (allSpan.length) ; i++) {
+      allSpan[i].classList.add('modalForm-error_active');
+    }
     document.getElementsByClassName("modalForm-error")[0].classList.add('modalForm-error_active');
     elems.phone.classList.add('modalForm-input_error');
   }
+}
+
+function setService(id) {
+  $('.modalForm__text').text(id);
 }
 
 $(document).ready(function() {
