@@ -9,6 +9,8 @@ body {
 	display: flex;
 	justify-content: center;
 	align-items: center;
+	background: url("img/background.png") no-repeat center;
+	background-size: cover;
 }
 
 
