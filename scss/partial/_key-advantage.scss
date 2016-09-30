@@ -1,9 +1,7 @@
 .key-advantage {
   position: relative;
   display: flex;
-  justify-content: space-around;
-  align-items: center;
-  flex-wrap: nowrap;
+  justify-content: center;
   width: 100%;
   padding: 70px 0;
   background-image: url("../img/header/bottom-line.png");
@@ -11,6 +9,14 @@
   background-position: 50% 100%;
   background-repeat: no-repeat;
   box-sizing: border-box;
+
+  &__container-adaptive {
+    width: 1200px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: nowrap;
+  }
 
   &-item {
     position: relative;
@@ -92,10 +98,19 @@
   }
 }
 
+@media all and (max-width: 1200px) {
+  .key-advantage__container-adaptive {
+    width: 100%;
+  }
+}
+
 @media all and ( max-width: 1000px ) {
   .key-advantage {
-    flex-wrap: wrap;
-    padding-bottom: 20px;
+    &__container-adaptive {
+      flex-wrap: wrap;
+      padding-bottom: 20px;
+    }
+
     &-item {
       margin: 0 7vw;
       margin-bottom: 50px;

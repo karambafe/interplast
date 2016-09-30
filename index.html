@@ -24,82 +24,88 @@
     <![endif]-->
 
     <header class="header">
-      <div class="header__container-logo">
-        <div class="header__logo"></div>
-        <div class="header__name">Антикоррозионный </br>  Центр Интерпласт</div>
-      </div>
-      <div class="header__description"><span class="header__description-bold">Антикоррозийная обработка</span>  автомобилей в Нижнем Новгороде</div>
-      <div class="header__adress">Нижний Новгород,  </br>  ул. Куйбышева, д.30б</div>
-      <ul class="header__working">
-        <li class="header__working-item">пн-пт...... с 8:00 до 20:00</li>
-        <li class="header__working-item">сб............ с 8:00 до 19:00</li>
-        <li class="header__working-item">вс............ с 8:00 до 18:00</li>
-      </ul>
-      <div class="header__call">
-        <span class="header__call-phone">8 831 200-31-35</span>
-        <a href="#modal" class="header__call-button">Заказать звонок</a>
+      <div class="header__container-adaptive">
+        <div class="header__container-logo">
+          <div class="header__logo"></div>
+          <div class="header__name">Антикоррозионный </br>  Центр Интерпласт</div>
+        </div>
+        <div class="header__description"><span class="header__description-bold">Антикоррозийная обработка</span>  автомобилей в Нижнем Новгороде</div>
+        <div class="header__adress">Нижний Новгород,  </br>  ул. Куйбышева, д.30б</div>
+        <ul class="header__working">
+          <li class="header__working-item">пн-пт...... с 8:00 до 20:00</li>
+          <li class="header__working-item">сб............ с 8:00 до 19:00</li>
+          <li class="header__working-item">вс............ с 8:00 до 18:00</li>
+        </ul>
+        <div class="header__call">
+          <span class="header__call-phone">8 831 200-31-35</span>
+          <a href="#modal" class="header__call-button">Заказать звонок</a>
+        </div>
       </div>
     </header>
 
     <section class="offer">
-      <div class="offer-wrapper">
-        <div class="offer-information">
-          <span class="offer-information__header">Защитите свой  автомобиль от  коррозии</span>
-          <div class="offer-information__line"></div>
-          <ul class="offer-information__list">
-            <li class="offer-information__list-item">Всего за 1 день</li>
-            <li class="offer-information__list-item">Даже на скрытых поверхностях</li>
-            <li class="offer-information__list-item">С беспрецедентной гарантией 5 лет на обработанные элементы</li>
-          </ul>
+      <div class="offer__container-adaptive">
+        <div class="offer-wrapper">
+          <div class="offer-information">
+            <span class="offer-information__header">Защитите свой  автомобиль от  коррозии</span>
+            <div class="offer-information__line"></div>
+            <ul class="offer-information__list">
+              <li class="offer-information__list-item">Всего за 1 день</li>
+              <li class="offer-information__list-item">Даже на скрытых поверхностях</li>
+              <li class="offer-information__list-item">С беспрецедентной гарантией 5 лет на обработанные элементы</li>
+            </ul>
+          </div>
+          <div class="offer-inspection"></div>
         </div>
-        <div class="offer-inspection"></div>
-      </div>
-      <div class="offer-sign">
-        <span class="offer-sign__header">Запишитесь на антикоррозийную обработку вашего автомобиля</span>
-        <span class="offer-sign__description">Заполните форму ниже и получите диагностику в труднодоступных местах эндоскопом в подарок</span>
-        <form class="offer-sign__form" action="offer.php" method="post">
-          <label class="offer-sign__form-label">Как вас зовут
-            <input type="text" name="offerName" class="offer-sign__form-input">
-          </label>
-          <label class="offer-sign__form-label">Ваш телефон
-            <input type="text" name="offerTel" class="offer-sign__form-input">
-          </label>
-          <label class="offer-sign__form-label">Какой у Вас автомобиль
-            <input type="text" name="offerCar" class="offer-sign__form-input">
-          </label>
-          <span class="offer-sign__form-error">Заполните все поля!</span>
-          <input type="submit" class="offer-sign__form-submit" name="apply" onclick="validateOffer(this.form)" value="Записаться">
-        </form>
+        <div class="offer-sign">
+          <span class="offer-sign__header">Запишитесь на антикоррозийную обработку вашего автомобиля</span>
+          <span class="offer-sign__description">Заполните форму ниже и получите диагностику в труднодоступных местах эндоскопом в подарок</span>
+          <form class="offer-sign__form" action="offer.php" method="post">
+            <label class="offer-sign__form-label">Как вас зовут
+              <input type="text" name="offerName" class="offer-sign__form-input">
+            </label>
+            <label class="offer-sign__form-label">Ваш телефон
+              <input type="text" name="offerTel" class="offer-sign__form-input">
+            </label>
+            <label class="offer-sign__form-label">Какой у Вас автомобиль
+              <input type="text" name="offerCar" class="offer-sign__form-input">
+            </label>
+            <span class="offer-sign__form-error">Заполните все поля!</span>
+            <input type="submit" class="offer-sign__form-submit" name="apply" onclick="validateOffer(this.form)" value="Записаться">
+          </form>
+        </div>
       </div>
     </section>
 
     <section class="key-advantage">
-      <div class="key-advantage-item">
-        <div class="key-advantage-item__rectangle">
-          <div class="key-advantage-item__image key-advantage-item__image1"></div>
+      <div class="key-advantage__container-adaptive">
+        <div class="key-advantage-item">
+          <div class="key-advantage-item__rectangle">
+            <div class="key-advantage-item__image key-advantage-item__image1"></div>
+          </div>
+          <span class="key-advantage-item__description">Мы работаем для вас с 1996 года</span>
         </div>
-        <span class="key-advantage-item__description">Мы работаем для вас с 1996 года</span>
-      </div>
-      <div class="key-advantage-item">
-        <div class="key-advantage-item__rectangle">
-          <div class="key-advantage-item__image key-advantage-item__image2"></div>
+        <div class="key-advantage-item">
+          <div class="key-advantage-item__rectangle">
+            <div class="key-advantage-item__image key-advantage-item__image2"></div>
+          </div>
+          <span class="key-advantage-item__description">За это время мы обработали более  5 000 автомобилей</span>
         </div>
-        <span class="key-advantage-item__description">За это время мы обработали более  5 000 автомобилей</span>
-      </div>
-      <div class="key-advantage-item">
-        <div class="key-advantage-item__rectangle">
-          <div class="key-advantage-item__image key-advantage-item__image3"></div>
+        <div class="key-advantage-item">
+          <div class="key-advantage-item__rectangle">
+            <div class="key-advantage-item__image key-advantage-item__image3"></div>
+          </div>
+          <span class="key-advantage-item__description">Даём 5 лет гарантии на отсутствие коррозии после обработки</span>
         </div>
-        <span class="key-advantage-item__description">Даём 5 лет гарантии на отсутствие коррозии после обработки</span>
-      </div>
-      <div class="key-advantage-item">
-        <div class="key-advantage-item__rectangle">
-          <div class="key-advantage-item__image key-advantage-item__image4"></div>
+        <div class="key-advantage-item">
+          <div class="key-advantage-item__rectangle">
+            <div class="key-advantage-item__image key-advantage-item__image4"></div>
+          </div>
+          <span class="key-advantage-item__description">Все наши сотрудники прошли сертификацию</span>
         </div>
-        <span class="key-advantage-item__description">Все наши сотрудники прошли сертификацию</span>
-      </div>
-      <div class="key-advantage__decor">
-        <img class="key-advantage__decor-image" src="img/header/arrow-down.png" alt="">
+        <div class="key-advantage__decor">
+          <img class="key-advantage__decor-image" src="img/header/arrow-down.png" alt="">
+        </div>
       </div>
     </section>
 
