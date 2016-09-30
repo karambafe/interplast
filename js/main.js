@@ -59,47 +59,55 @@ function validateContasts(form) {
   var contactsName = elems.contactsName.value;
   var contactsPhone = elems.contactsPhone.value;
 
-  if (form.id == 'howWork') {
-    var howWork = document.getElementsByClassName('how-work__form-input');
-    for (i=0; i < (howWork.length) ; i++) {
-      if (howWork[i].classList.contains('how-work__form-input_error')) {
-        howWork[i].classList.remove('how-work__form-input_error');
+
+  switch (form.id) {
+    case 'howWork':
+      var howWork = document.getElementsByClassName('how-work__form-input');
+      for (i=0; i < (howWork.length) ; i++) {
+        if (howWork[i].classList.contains('how-work__form-input_error')) {
+          howWork[i].classList.remove('how-work__form-input_error');
+        }
+        document.getElementsByClassName("how-work__form-error")[0].classList.remove('how-work__form-error_active');
       }
-      document.getElementsByClassName("how-work__form-error")[0].classList.remove('how-work__form-error_active');
-    }
 
-    if (!contactsName) {
-      event.preventDefault();
-      document.getElementsByClassName("how-work__form-error")[0].classList.add('how-work__form-error_active');
-      elems.contactsName.classList.add('how-work__form-input_error');
-    }
-
-    if (!contactsPhone) {
-      event.preventDefault();
-      document.getElementsByClassName("how-work__form-error")[0].classList.add('how-work__form-error_active');
-      elems.contactsPhone.classList.add('how-work__form-input_error');
-    }
-  } else if (form.id == 'contacts') {
-    var contacts = document.getElementsByClassName('contacts__questions-form-input');
-    for (i=0; i < (contacts.length) ; i++) {
-      if (contacts[i].classList.contains('contacts__questions-form-input_error')) {
-        contacts[i].classList.remove('contacts__questions-form-input_error');
+      if (!contactsName) {
+        event.preventDefault();
+        document.getElementsByClassName("how-work__form-error")[0].classList.add('how-work__form-error_active');
+        elems.contactsName.classList.add('how-work__form-input_error');
       }
-      document.getElementsByClassName("contacts__questions-form-error")[0].classList.remove('contacts__questions-form-error_active');
-    }
-  }
 
-  if (!contactsName) {
-    document.getElementsByClassName("contacts__questions-form-error")[0].classList.add('contacts__questions-form-error_active');
-    elems.contactsName.classList.add('contacts__questions-form-input_error');
-    console.log('Добавили класс!');
-  }
+      if (!contactsPhone) {
+        event.preventDefault();
+        document.getElementsByClassName("how-work__form-error")[0].classList.add('how-work__form-error_active');
+        elems.contactsPhone.classList.add('how-work__form-input_error');
+      }
+      break;
 
-  if (!contactsPhone) {
-    event.preventDefault();
-    document.getElementsByClassName("contacts__questions-form-error")[0].classList.add('contacts__questions-form-error_active');
-    elems.contactsPhone.classList.add('contacts__questions-form-input_error');
-    // console.log('Добавили класс!');
+    case 'contacts':
+      var contacts = document.getElementsByClassName('contacts__questions-form-input');
+      for (i=0; i < (contacts.length) ; i++) {
+        if (contacts[i].classList.contains('contacts__questions-form-input_error')) {
+          contacts[i].classList.remove('contacts__questions-form-input_error');
+        }
+        document.getElementsByClassName("contacts__questions-form-error")[0].classList.remove('contacts__questions-form-error_active');
+      }
+
+      if (!contactsName) {
+        event.preventDefault();
+        document.getElementsByClassName("contacts__questions-form-error")[0].classList.add('contacts__questions-form-error_active');
+        elems.contactsName.classList.add('contacts__questions-form-input_error');
+      }
+
+      if (!contactsPhone) {
+        event.preventDefault();
+        document.getElementsByClassName("contacts__questions-form-error")[0].classList.add('contacts__questions-form-error_active');
+        elems.contactsPhone.classList.add('contacts__questions-form-input_error');
+        // console.log('Добавили класс!');
+      }
+      break;
+
+    default:
+      break;
   }
 }
 
