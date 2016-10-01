@@ -661,29 +661,30 @@ textarea {
     background: url("../img/offer/backkWith.jpg") no-repeat center;
     background-size: cover; }
     .offer__container-adaptive {
+      display: block;
       height: 100%;
-      -webkit-box-orient: vertical;
-      -webkit-box-direction: normal;
-      -webkit-flex-direction: column;
-          -ms-flex-direction: column;
-              flex-direction: column;
       padding-bottom: 70px; }
     .offer-wraper {
       -webkit-flex-shrink: 0;
           -ms-flex-negative: 0;
-              flex-shrink: 0; }
+              flex-shrink: 0;
+      margin: 0 auto; }
     .offer-information {
       -webkit-flex-shrink: 0;
           -ms-flex-negative: 0;
               flex-shrink: 0;
-      padding-top: 30px; }
+      padding-top: 30px;
+      margin: 0 auto; }
     .offer-sign__form {
       -webkit-flex-shrink: 0;
           -ms-flex-negative: 0;
               flex-shrink: 0;
       -webkit-align-self: center;
           -ms-flex-item-align: center;
-              align-self: center; } }
+              align-self: center;
+      margin: 0 auto; }
+    .offer-sign {
+      margin: 0 auto; } }
 @media all and (max-width: 730px) {
   .offer-inspection {
     display: none; } }

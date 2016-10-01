@@ -174,23 +174,31 @@
     background-size: cover;
 
     &__container-adaptive {
+      display: block;
       height: 100%;
-      flex-direction: column;
+      //flex-direction: column;
       padding-bottom: 70px;
     }
 
     &-wraper {
       flex-shrink: 0;
+      margin: 0 auto;
     }
 
     &-information {
       flex-shrink: 0;
       padding-top: 30px;
+      margin: 0 auto;
     }
 
     &-sign__form {
       flex-shrink: 0;
       align-self: center;
+      margin: 0 auto;
+    }
+
+    &-sign {
+      margin: 0 auto;
     }
   }
 }
