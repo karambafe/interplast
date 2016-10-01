@@ -73,6 +73,7 @@
     padding-top: 65px;
 
     &__header {
+      flex-shrink: 0;
       display: block;
       font-size: 24px;
       font-family: "Roboto", san-serif;
@@ -83,6 +84,7 @@
     }
 
     &__description {
+      flex-shrink: 0;
       display: block;
       font-size: 18px;
       font-family: "Roboto", san-serif;
@@ -93,6 +95,7 @@
     }
 
     &__form {
+      flex-shrink: 0;
       display: flex;
       flex-direction: column;
       align-items: flex-start;
@@ -177,10 +180,12 @@
     }
 
     &-information {
+      flex-shrink: 0;
       padding-top: 30px;
     }
 
     &-sign__form {
+      flex-shrink: 0;
       align-self: center;
     }
   }
@@ -195,14 +200,14 @@
 @media all and (max-width: 400px) {
   .offer-information {
     width: 100%;
-    min-height: 310px;
+    //min-height: 310px;
     padding-left: 20px;
     padding-right: 20px;
   }
 
   .offer-sign {
     width: 100%;
-    min-height: 471px;
+    //min-height: 471px;
     padding-left: 20px;
     padding-right: 20px;
   }

@@ -570,6 +570,9 @@ textarea {
     height: 100%;
     padding-top: 65px; }
     .offer-sign__header {
+      -webkit-flex-shrink: 0;
+          -ms-flex-negative: 0;
+              flex-shrink: 0;
       display: block;
       font-size: 24px;
       font-family: "Roboto", san-serif;
@@ -578,6 +581,9 @@ textarea {
       text-align: left;
       margin-bottom: 20px; }
     .offer-sign__description {
+      -webkit-flex-shrink: 0;
+          -ms-flex-negative: 0;
+              flex-shrink: 0;
       display: block;
       font-size: 18px;
       font-family: "Roboto", san-serif;
@@ -586,6 +592,9 @@ textarea {
       text-align: left;
       margin-bottom: 30px; }
     .offer-sign__form {
+      -webkit-flex-shrink: 0;
+          -ms-flex-negative: 0;
+              flex-shrink: 0;
       display: -webkit-box;
       display: -webkit-flex;
       display: -ms-flexbox;
@@ -663,8 +672,14 @@ textarea {
               flex-direction: column;
       padding-bottom: 70px; }
     .offer-information {
+      -webkit-flex-shrink: 0;
+          -ms-flex-negative: 0;
+              flex-shrink: 0;
       padding-top: 30px; }
     .offer-sign__form {
+      -webkit-flex-shrink: 0;
+          -ms-flex-negative: 0;
+              flex-shrink: 0;
       -webkit-align-self: center;
           -ms-flex-item-align: center;
               align-self: center; } }
@@ -674,13 +689,11 @@ textarea {
 @media all and (max-width: 400px) {
   .offer-information {
     width: 100%;
-    min-height: 310px;
     padding-left: 20px;
     padding-right: 20px; }
 
   .offer-sign {
     width: 100%;
-    min-height: 471px;
     padding-left: 20px;
     padding-right: 20px; } }
 .key-advantage {
