@@ -29,11 +29,13 @@
   }
 
   &-information {
+    display: block;
     width: 360px;
     height: 100%;
     padding-top: 60px;
 
     &__header {
+      display: block;
       font-size: 42px;
       font-family: "Roboto", san-serif;
       color: rgb(64, 95, 168);
