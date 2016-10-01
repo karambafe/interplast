@@ -166,6 +166,7 @@
 @media all and (max-width: 1000px) {
   .offer {
     height: 100%;
+    min-height: 590px;
     background: url("../img/offer/backkWith.jpg") no-repeat center;
     background-size: cover;
 
@@ -194,12 +195,14 @@
 @media all and (max-width: 400px) {
   .offer-information {
     width: 100%;
+    min-height: 310px;
     padding-left: 20px;
     padding-right: 20px;
   }
 
   .offer-sign {
     width: 100%;
+    min-height: 471px;
     padding-left: 20px;
     padding-right: 20px;
   }
