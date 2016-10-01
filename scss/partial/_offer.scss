@@ -202,6 +202,10 @@
 }
 
 @media all and (max-width: 400px) {
+  .offer {
+    min-height: 940px;
+  }
+
   .offer-information {
     width: 100%;
     //min-height: 310px;

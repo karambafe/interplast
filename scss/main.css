@@ -691,6 +691,9 @@ textarea {
   .offer-inspection {
     display: none; } }
 @media all and (max-width: 400px) {
+  .offer {
+    min-height: 940px; }
+
   .offer-information {
     width: 100%;
     padding-left: 20px;
