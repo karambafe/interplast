@@ -514,10 +514,7 @@ textarea {
         -ms-flex-align: center;
             align-items: center; }
   .offer-wrapper {
-    display: -webkit-box;
-    display: -webkit-flex;
-    display: -ms-flexbox;
-    display: flex;
+    display: block;
     height: 100%; }
   .offer-inspection {
     display: none;
