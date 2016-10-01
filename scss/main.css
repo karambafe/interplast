@@ -1325,9 +1325,6 @@ textarea {
     -webkit-align-items: center;
         -ms-flex-align: center;
             align-items: center;
-    -webkit-flex-wrap: wrap;
-        -ms-flex-wrap: wrap;
-            flex-wrap: wrap;
     width: 100%;
     margin-top: 25px; }
     .how-work__form-label {
@@ -1385,9 +1382,23 @@ textarea {
   .how-work__item {
     margin: 0; }
 
-  .how-work__form-label,
+  .how-work__form {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+        -ms-flex-align: center;
+            align-items: center; }
+
+  .how-work__form-label {
+    margin-right: 0;
+    margin-top: 20px; }
+
   .how-work__form-submit {
-    margin: 0 100px;
+    margin: 0 auto;
     margin-top: 20px; } }
 .talk {
   display: -webkit-box;

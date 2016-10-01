@@ -106,7 +106,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    flex-wrap: wrap;
+    //flex-wrap: wrap;
     width: 100%;
     margin-top: 25px;
 
@@ -187,9 +187,17 @@
     margin: 0;
   }
 
-  .how-work__form-label,
+  .how-work__form {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .how-work__form-label {
+    margin-right: 0;
+    margin-top: 20px;
+  }
   .how-work__form-submit {
-    margin: 0 100px;
+    margin: 0 auto;
     margin-top: 20px;
   }
 }
