@@ -671,6 +671,10 @@ textarea {
           -ms-flex-direction: column;
               flex-direction: column;
       padding-bottom: 70px; }
+    .offer-wraper {
+      -webkit-flex-shrink: 0;
+          -ms-flex-negative: 0;
+              flex-shrink: 0; }
     .offer-information {
       -webkit-flex-shrink: 0;
           -ms-flex-negative: 0;
