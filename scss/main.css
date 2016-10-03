@@ -634,7 +634,9 @@ textarea {
         background-color: #005ead;
         color: #fff;
         text-transform: uppercase;
-        margin-top: 15px; }
+        margin-top: 15px;
+        font-size: 14px;
+        font-family: 'Roboto', san-serif; }
         .offer-sign__form-submit:hover {
           color: #fff;
           border-color: #fff;
@@ -1810,7 +1812,9 @@ textarea {
         background-color: #005ead;
         color: #fff;
         font-weight: 300;
-        text-transform: uppercase; }
+        text-transform: uppercase;
+        font-size: 14px;
+        font-family: 'Roboto', san-serif; }
         .contacts__questions-form-submit:hover {
           color: #005ead;
           background-color: #fff;
