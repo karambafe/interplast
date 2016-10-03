@@ -1867,16 +1867,7 @@ textarea {
     width: calc(100vw - 427px);
     height: 375px; }
     .contacts__map-shadow {
-      position: absolute;
-      top: 0;
-      left: 0;
-      right: 0;
-      bottom: 0;
-      width: 100%;
-      height: 100%;
-      background-color: transparent;
-      box-shadow: inset 0px 3px 15px 0px rgba(0, 0, 0, 0.33);
-      z-index: 100; }
+      box-shadow: inset 0px 3px 15px 0px rgba(0, 0, 0, 0.33); }
 
 @media all and (max-width: 1000px) {
   .contacts {
